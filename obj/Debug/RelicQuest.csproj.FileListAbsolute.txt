@@ -1,0 +1,15 @@
+C:\Users\itsje\OneDrive\Documents\CSharp\RelicQuest\bin\Debug\RelicQuest.exe.config
+C:\Users\itsje\OneDrive\Documents\CSharp\RelicQuest\bin\Debug\RelicQuest.exe
+C:\Users\itsje\OneDrive\Documents\CSharp\RelicQuest\bin\Debug\RelicQuest.pdb
+C:\Users\itsje\OneDrive\Documents\CSharp\RelicQuest\obj\Debug\RelicQuest.csproj.AssemblyReference.cache
+C:\Users\itsje\OneDrive\Documents\CSharp\RelicQuest\obj\Debug\MainWindow.g.cs
+C:\Users\itsje\OneDrive\Documents\CSharp\RelicQuest\obj\Debug\App.g.cs
+C:\Users\itsje\OneDrive\Documents\CSharp\RelicQuest\obj\Debug\RelicQuest_MarkupCompile.cache
+C:\Users\itsje\OneDrive\Documents\CSharp\RelicQuest\obj\Debug\RelicQuest_MarkupCompile.lref
+C:\Users\itsje\OneDrive\Documents\CSharp\RelicQuest\obj\Debug\MainWindow.baml
+C:\Users\itsje\OneDrive\Documents\CSharp\RelicQuest\obj\Debug\RelicQuest.g.resources
+C:\Users\itsje\OneDrive\Documents\CSharp\RelicQuest\obj\Debug\RelicQuest.Properties.Resources.resources
+C:\Users\itsje\OneDrive\Documents\CSharp\RelicQuest\obj\Debug\RelicQuest.csproj.GenerateResource.cache
+C:\Users\itsje\OneDrive\Documents\CSharp\RelicQuest\obj\Debug\RelicQuest.csproj.CoreCompileInputs.cache
+C:\Users\itsje\OneDrive\Documents\CSharp\RelicQuest\obj\Debug\RelicQuest.exe
+C:\Users\itsje\OneDrive\Documents\CSharp\RelicQuest\obj\Debug\RelicQuest.pdb

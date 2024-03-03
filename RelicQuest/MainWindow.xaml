@@ -6,6 +6,11 @@
         xmlns:local="clr-namespace:RelicQuest"
         mc:Ignorable="d"
         Title="Relic Quest: Secrets Unveiled" Height="768" Width="1024">
+
+    <Window.Resources>
+        <BooleanToVisibilityConverter x:Key="BooleanToVisibility"/>
+    </Window.Resources>
+    
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
@@ -28,7 +33,7 @@
             </Grid.RowDefinitions>
 
             <Label Grid.Row="0" Grid.Column="0" Content="PLAYER PROFILE" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="Cornsilk"/>
-            <Label Grid.Row="1" Grid.Column="0" VerticalContentAlignment="Center" Background="Cornsilk"/>
+            <Label Grid.Row="1" Grid.Column="0" VerticalContentAlignment="Center" Background="#FAEED1"/>
             
             <!--Player Stats-->
             <Grid Grid.Row="1" Grid.Column="0">
@@ -41,20 +46,24 @@
                     <RowDefinition Height="Auto"/>
                     <RowDefinition Height="Auto"/>
                 </Grid.RowDefinitions>
-                
+
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
 
-                <Label Grid.Row="0" Content="PLAYER STATUS"/>
+                <Border Grid.Row="0" BorderBrush="DarkSlateBlue" BorderThickness="0,0,0,1">
+                    <Label Content="PLAYER STATUS"/>
+                </Border>
 
-                <Label Grid.Row="1" Grid.Column="0" Content="Name:"/>
-                <Label Grid.Row="2" Grid.Column="0" Content="Class:"/>
-                <Label Grid.Row="3" Grid.Column="0" Content="Level:"/>
-                <Label Grid.Row="4" Grid.Column="0" Content="Coins:"/>
-                <Label Grid.Row="5" Grid.Column="0" Content="Hit Points:"/>
-                <Label Grid.Row="6" Grid.Column="0" Content="XP:"/>
+                <Border Grid.Row="0" Grid.Column="1" BorderBrush="DarkSlateBlue" BorderThickness="0,0,0,1"/>
+
+                <Label Grid.Row="1" Grid.Column="0" Content="Name :"/>
+                <Label Grid.Row="2" Grid.Column="0" Content="Class :"/>
+                <Label Grid.Row="3" Grid.Column="0" Content="Level :"/>
+                <Label Grid.Row="4" Grid.Column="0" Content="Coins :"/>
+                <Label Grid.Row="5" Grid.Column="0" Content="Hit Points :"/>
+                <Label Grid.Row="6" Grid.Column="0" Content="XP :"/>
                 <Label Grid.Row="1" Grid.Column="1" Content="{Binding CurrentPlayer.Name}"/>
                 <Label Grid.Row="2" Grid.Column="1" Content="{Binding CurrentPlayer.CharacterClass}"/>
                 <Label Grid.Row="3" Grid.Column="1" Content="{Binding CurrentPlayer.Level}"/>
@@ -65,14 +74,14 @@
         
         </Grid>
 
-        <Label Grid.Row="2" Grid.Column="0" Content="QUESTS AND LOOTS" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="AliceBlue"/>
+        <Label Grid.Row="2" Grid.Column="0" Content="QUESTS AND LOOTS" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="#9DBC98"/>
 
 
         <!--Game Message-->
 
         <Grid Grid.Row="1" Grid.Column="1">
-            <Border BorderThickness="3" BorderBrush="DarkSlateGray" CornerRadius="3">
-                <Label Grid.Row="1" Grid.Column="1" Content="GAME MESSAGES" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="Azure"/>
+            <Border BorderThickness="2" BorderBrush="DarkSlateGray" CornerRadius="3">
+                <Label Grid.Row="1" Grid.Column="1" Content="GAME MESSAGES" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="#F9EFDB"/>
             </Border>
         </Grid>
 
@@ -84,8 +93,8 @@
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
 
-            <Label Grid.Row="2" Grid.Column="0" Content="ITEM" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="Bisque"/>
-            <Label Grid.Row="2" Grid.Column="1" Content="ITEM BUTTONS" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="Bisque"/>
+            <Label Grid.Row="2" Grid.Column="0" Content="ITEM" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="#EBD9B4"/>
+            <Label Grid.Row="2" Grid.Column="1" Content="ITEM BUTTONS" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="#EBD9B4"/>
         </Grid>
 
         <!--Location and Enemy Info-->
@@ -94,12 +103,72 @@
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
+            
+            <!--Location Information-->
+            <Grid Grid.Row="0" Grid.Column="0" Background="#FAEED1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+    
+                <Border Margin="7" Grid.Row="0" BorderThickness="1" BorderBrush="DarkSlateGray" CornerRadius="3">
+                    <TextBlock HorizontalAlignment="Center" Text="{Binding CurrentLocation.Name}"/>
+                </Border>
 
-            <Label Grid.Row="0" Grid.Column="0" Content="LOCATION INFORMATION" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="BlanchedAlmond"/>
-            <Label Grid.Row="1" Grid.Column="0" Content="ENEMY INFORMATION" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="BlanchedAlmond"/>
+                <Image Grid.Row="1"
+                       HorizontalAlignment="Center"
+                       Height="125"
+                       Width="125"
+                       Source="{Binding CurrentLocation.ImageName}"/>
+
+                <TextBlock Grid.Row="2"
+                           TextWrapping="Wrap"
+                           TextAlignment="Center"
+                           Margin="3"
+                           Text="{Binding CurrentLocation.Description}"/>
+            </Grid>
+
+
+            <Label Grid.Row="1" Grid.Column="0" Content="ENEMY INFORMATION" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="#FAEED1"/>
         </Grid>
 
 
-        <Label Grid.Row="2" Grid.Column="2" Content="NAVIGATION BUTTONS" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="AliceBlue"/>
+        <Grid Grid.Row="2" Grid.Column="2" Background="#9DBC98">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Button Grid.Row="0" Grid.Column="1"
+                    Height="25" Width="Auto" Margin="8"
+                    Content="North"
+                    Click="OnClickNorth"
+                    Visibility="{Binding HasLocationToNorth, Converter={StaticResource BooleanToVisibility}}"/>
+            <Button Grid.Row="1" Grid.Column="0"
+                    Height="25" Width="Auto" Margin="8"
+                    Content="West"
+                    Click="OnClickWest"
+                    Visibility="{Binding HasLocationToWest, Converter={StaticResource BooleanToVisibility}}"/>
+            <Button Grid.Row="1" Grid.Column="2"
+                    Height="25" Width="Auto" Margin="8"
+                    Content="East"
+                    Click="OnClickEast"
+                    Visibility="{Binding HasLocationToEast, Converter={StaticResource BooleanToVisibility}}"/>
+            <Button Grid.Row="2" Grid.Column="1"
+                    Height="25" Width="Auto" Margin="8"
+                    Content="South"
+                    Click="OnClickSouth"
+                    Visibility="{Binding HasLocationToSouth, Converter={StaticResource BooleanToVisibility}}"/>
+
+        </Grid>
+        
     </Grid>
 </Window>

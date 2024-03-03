@@ -9,3 +9,5 @@ C:\Users\itsje\OneDrive\Documents\CSharp\RelicQuest\Engine\obj\Debug\net8.0\Engi
 C:\Users\itsje\OneDrive\Documents\CSharp\RelicQuest\Engine\obj\Debug\net8.0\refint\Engine.dll
 C:\Users\itsje\OneDrive\Documents\CSharp\RelicQuest\Engine\obj\Debug\net8.0\Engine.pdb
 C:\Users\itsje\OneDrive\Documents\CSharp\RelicQuest\Engine\obj\Debug\net8.0\ref\Engine.dll
+C:\Users\itsje\OneDrive\Documents\CSharp\RelicQuest\Engine\obj\Debug\net8.0\Engine.sourcelink.json
+C:\Users\itsje\OneDrive\Documents\CSharp\RelicQuest\Engine\obj\Debug\net8.0\Engine.g.resources

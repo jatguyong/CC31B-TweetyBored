@@ -63,7 +63,7 @@ namespace Engine.Models
             set
             {
                 _coin = value;
-                // set the valie of _coin to whatever value is passed
+                // set the value of _coin to whatever value is passed
                 OnPropertyChanged("Coin");
                 // this notifies that the Coin value has changed and refreshes the value of Coin in the UI
             }

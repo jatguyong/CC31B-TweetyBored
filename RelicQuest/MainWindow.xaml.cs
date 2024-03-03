@@ -1,4 +1,5 @@
 ﻿using Engine.ViewModels;
+using System.ComponentModel;
 using System.Text;
 using System.Windows;
 using System.Windows.Controls;
@@ -25,6 +26,24 @@ namespace RelicQuest
             DataContext = _gameSession;
             // the data context of this MainWindow is the GameSession
             // all the data that will be used in the UI is from the GameSession class
+        }
+
+
+        private void OnClickNorth(object sender, RoutedEventArgs e)
+        {
+            _gameSession.MoveNorth(); // the two parameters are unnecessary so we create a separate method
+        }
+        private void OnClickWest(object sender, RoutedEventArgs e)
+        {
+            _gameSession.MoveWest();
+        }
+        private void OnClickEast(object sender, RoutedEventArgs e)
+        {
+            _gameSession.MoveEast();
+        }
+        private void OnClickSouth(object sender, RoutedEventArgs e)
+        {
+            _gameSession.MoveSouth();
         }
     }
 }

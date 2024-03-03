@@ -1,9 +1,40 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\Locations\abandoned_dungeon.png" />
+    <None Remove="Images\Locations\coastal.png" />
+    <None Remove="Images\Locations\grove.png" />
+    <None Remove="Images\Locations\hacienda.png" />
+    <None Remove="Images\Locations\harbor.png" />
+    <None Remove="Images\Locations\oasis.png" />
+    <None Remove="Images\Locations\plateau.png" />
+    <None Remove="Images\Locations\sanctuary.png" />
+    <None Remove="Images\Locations\summit.png" />
+    <None Remove="Images\Locations\wasteland.png" />
+    <None Remove="Images\Locations\woods.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\Locations\abandoned_dungeon.png" />
+    <Resource Include="Images\Locations\coastal.png" />
+    <Resource Include="Images\Locations\grove.png" />
+    <Resource Include="Images\Locations\hacienda.png" />
+    <Resource Include="Images\Locations\harbor.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\Locations\oasis.png" />
+    <Resource Include="Images\Locations\plateau.png" />
+    <Resource Include="Images\Locations\sanctuary.png" />
+    <Resource Include="Images\Locations\summit.png" />
+    <Resource Include="Images\Locations\wasteland.png" />
+    <Resource Include="Images\Locations\woods.png" />
+  </ItemGroup>
 
 </Project>

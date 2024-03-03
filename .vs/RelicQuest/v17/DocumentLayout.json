@@ -1,0 +1,142 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\itsje\\OneDrive\\Documents\\CSharp\\RelicQuest\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{70A6AD7F-E19C-439F-8EBB-C0D8B77149CC}|RelicQuest\\RelicQuest.csproj|c:\\users\\itsje\\onedrive\\documents\\csharp\\relicquest\\relicquest\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{70A6AD7F-E19C-439F-8EBB-C0D8B77149CC}|RelicQuest\\RelicQuest.csproj|solutionrelative:relicquest\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA81ACC0-2891-4ADA-9B2C-BF9EB6029968}|Engine\\Engine.csproj|c:\\users\\itsje\\onedrive\\documents\\csharp\\relicquest\\engine\\viewmodels\\gamesessions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA81ACC0-2891-4ADA-9B2C-BF9EB6029968}|Engine\\Engine.csproj|solutionrelative:engine\\viewmodels\\gamesessions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA81ACC0-2891-4ADA-9B2C-BF9EB6029968}|Engine\\Engine.csproj|c:\\users\\itsje\\onedrive\\documents\\csharp\\relicquest\\engine\\factories\\worldfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA81ACC0-2891-4ADA-9B2C-BF9EB6029968}|Engine\\Engine.csproj|solutionrelative:engine\\factories\\worldfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70A6AD7F-E19C-439F-8EBB-C0D8B77149CC}|RelicQuest\\RelicQuest.csproj|c:\\users\\itsje\\onedrive\\documents\\csharp\\relicquest\\relicquest\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70A6AD7F-E19C-439F-8EBB-C0D8B77149CC}|RelicQuest\\RelicQuest.csproj|solutionrelative:relicquest\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA81ACC0-2891-4ADA-9B2C-BF9EB6029968}|Engine\\Engine.csproj|c:\\users\\itsje\\onedrive\\documents\\csharp\\relicquest\\engine\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA81ACC0-2891-4ADA-9B2C-BF9EB6029968}|Engine\\Engine.csproj|solutionrelative:engine\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA81ACC0-2891-4ADA-9B2C-BF9EB6029968}|Engine\\Engine.csproj|c:\\users\\itsje\\onedrive\\documents\\csharp\\relicquest\\engine\\models\\world.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA81ACC0-2891-4ADA-9B2C-BF9EB6029968}|Engine\\Engine.csproj|solutionrelative:engine\\models\\world.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA81ACC0-2891-4ADA-9B2C-BF9EB6029968}|Engine\\Engine.csproj|c:\\users\\itsje\\onedrive\\documents\\csharp\\relicquest\\engine\\models\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA81ACC0-2891-4ADA-9B2C-BF9EB6029968}|Engine\\Engine.csproj|solutionrelative:engine\\models\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\itsje\\OneDrive\\Documents\\CSharp\\RelicQuest\\Engine\\Models\\Player.cs",
+              "RelativeDocumentMoniker": "Engine\\Models\\Player.cs",
+              "ToolTip": "C:\\Users\\itsje\\OneDrive\\Documents\\CSharp\\RelicQuest\\Engine\\Models\\Player.cs",
+              "RelativeToolTip": "Engine\\Models\\Player.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAA1wB0AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T18:25:19.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WorldFactory.cs",
+              "DocumentMoniker": "C:\\Users\\itsje\\OneDrive\\Documents\\CSharp\\RelicQuest\\Engine\\Factories\\WorldFactory.cs",
+              "RelativeDocumentMoniker": "Engine\\Factories\\WorldFactory.cs",
+              "ToolTip": "C:\\Users\\itsje\\OneDrive\\Documents\\CSharp\\RelicQuest\\Engine\\Factories\\WorldFactory.cs",
+              "RelativeToolTip": "Engine\\Factories\\WorldFactory.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAACFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T16:20:50.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "World.cs",
+              "DocumentMoniker": "C:\\Users\\itsje\\OneDrive\\Documents\\CSharp\\RelicQuest\\Engine\\Models\\World.cs",
+              "RelativeDocumentMoniker": "Engine\\Models\\World.cs",
+              "ToolTip": "C:\\Users\\itsje\\OneDrive\\Documents\\CSharp\\RelicQuest\\Engine\\Models\\World.cs",
+              "RelativeToolTip": "Engine\\Models\\World.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAuwBwAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T16:18:12.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Location.cs",
+              "DocumentMoniker": "C:\\Users\\itsje\\OneDrive\\Documents\\CSharp\\RelicQuest\\Engine\\Models\\Location.cs",
+              "RelativeDocumentMoniker": "Engine\\Models\\Location.cs",
+              "ToolTip": "C:\\Users\\itsje\\OneDrive\\Documents\\CSharp\\RelicQuest\\Engine\\Models\\Location.cs",
+              "RelativeToolTip": "Engine\\Models\\Location.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T14:53:12.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\itsje\\OneDrive\\Documents\\CSharp\\RelicQuest\\RelicQuest\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "RelicQuest\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\itsje\\OneDrive\\Documents\\CSharp\\RelicQuest\\RelicQuest\\MainWindow.xaml.cs",
+              "RelativeToolTip": "RelicQuest\\MainWindow.xaml.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T14:12:15.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameSessions.cs",
+              "DocumentMoniker": "C:\\Users\\itsje\\OneDrive\\Documents\\CSharp\\RelicQuest\\Engine\\ViewModels\\GameSessions.cs",
+              "RelativeDocumentMoniker": "Engine\\ViewModels\\GameSessions.cs",
+              "ToolTip": "C:\\Users\\itsje\\OneDrive\\Documents\\CSharp\\RelicQuest\\Engine\\ViewModels\\GameSessions.cs",
+              "RelativeToolTip": "Engine\\ViewModels\\GameSessions.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABoAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T14:13:13.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\itsje\\OneDrive\\Documents\\CSharp\\RelicQuest\\RelicQuest\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "RelicQuest\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\itsje\\OneDrive\\Documents\\CSharp\\RelicQuest\\RelicQuest\\MainWindow.xaml",
+              "RelativeToolTip": "RelicQuest\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-03T13:51:01.226Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

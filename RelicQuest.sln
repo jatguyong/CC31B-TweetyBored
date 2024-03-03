@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RelicQuest", "RelicQuest\RelicQuest.csproj", "{70A6AD7F-E19C-439F-8EBB-C0D8B77149CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Engine", "Engine\Engine.csproj", "{CA81ACC0-2891-4ADA-9B2C-BF9EB6029968}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70A6AD7F-E19C-439F-8EBB-C0D8B77149CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70A6AD7F-E19C-439F-8EBB-C0D8B77149CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70A6AD7F-E19C-439F-8EBB-C0D8B77149CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70A6AD7F-E19C-439F-8EBB-C0D8B77149CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA81ACC0-2891-4ADA-9B2C-BF9EB6029968}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA81ACC0-2891-4ADA-9B2C-BF9EB6029968}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA81ACC0-2891-4ADA-9B2C-BF9EB6029968}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA81ACC0-2891-4ADA-9B2C-BF9EB6029968}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E3D8199A-9BF7-4349-B584-41E433666284}
+	EndGlobalSection
+EndGlobal

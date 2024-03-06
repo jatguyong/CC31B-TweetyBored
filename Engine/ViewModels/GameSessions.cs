@@ -17,14 +17,15 @@ namespace Engine.ViewModels
 
         public GameSession()
         {
-            CurrentPlayer = new Player();
-            CurrentPlayer.Name = "User";
-            // name must be user input
-            CurrentPlayer.CharacterClass = "Soulweaver";
-            CurrentPlayer.Level = 1;
-            CurrentPlayer.Coin = 0;
-            CurrentPlayer.HitPoints = 20;
-            CurrentPlayer.ExperiencePoints = 0;
+           CurrentPlayer = new Player
+            {
+                Name = "User", // name must be user input
+                CharacterClass = "Soulweaver",
+                Level = 1,
+                Coin = 0,
+                HitPoints = 20,
+                ExperiencePoints = 0
+            };
 
             WorldFactory worldFactory = new WorldFactory();
             CurrentWorld = worldFactory.CreateWorld(); // the CurrentWorld is whatever the WorldFactory created in its CreateWorld()

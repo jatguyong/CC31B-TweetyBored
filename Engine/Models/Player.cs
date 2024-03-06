@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Engine.Models
 {
-    public class Player : INotifyPropertyChanged
+    public class Player : BaseNotificationClass
     {
         // backing variables
         private string _name;
@@ -91,19 +91,6 @@ namespace Engine.Models
                 _experiencePoints = value;
                 OnPropertyChanged("ExperiencePoints");
             }
-        }
-
-
-
-
-        public event PropertyChangedEventHandler? PropertyChanged;
-        // whenever an event occurs, this event is triggered
-
-        public virtual void OnPropertyChanged(string propertyName)
-        {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
-            // if this method is called, invoke the OnPropertyChanged event handler
-            // to change the corresponding value of the passed propertyName in the UI
         }
     }
 }

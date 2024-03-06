@@ -27,23 +27,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\itsje\\.nuget\\packages\\": {},
+    "C:\\Users\\m303user\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\itsje\\OneDrive\\Documents\\CSharp\\RelicQuest\\RelicQuest\\RelicQuest.csproj",
+      "projectUniqueName": "C:\\Users\\m303user\\Documents\\ja\\cc3\\TweetyBored\\RelicQuest\\RelicQuest.csproj",
       "projectName": "RelicQuest",
-      "projectPath": "C:\\Users\\itsje\\OneDrive\\Documents\\CSharp\\RelicQuest\\RelicQuest\\RelicQuest.csproj",
-      "packagesPath": "C:\\Users\\itsje\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\itsje\\OneDrive\\Documents\\CSharp\\RelicQuest\\RelicQuest\\obj\\",
+      "projectPath": "C:\\Users\\m303user\\Documents\\ja\\cc3\\TweetyBored\\RelicQuest\\RelicQuest.csproj",
+      "packagesPath": "C:\\Users\\m303user\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\m303user\\Documents\\ja\\cc3\\TweetyBored\\RelicQuest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\itsje\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\m303user\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -59,8 +59,8 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\itsje\\OneDrive\\Documents\\CSharp\\RelicQuest\\Engine\\Engine.csproj": {
-              "projectPath": "C:\\Users\\itsje\\OneDrive\\Documents\\CSharp\\RelicQuest\\Engine\\Engine.csproj"
+            "C:\\Users\\m303user\\Documents\\ja\\cc3\\TweetyBored\\Engine\\Engine.csproj": {
+              "projectPath": "C:\\Users\\m303user\\Documents\\ja\\cc3\\TweetyBored\\Engine\\Engine.csproj"
             }
           }
         }
@@ -98,7 +98,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

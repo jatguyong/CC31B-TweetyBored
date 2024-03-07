@@ -88,24 +88,44 @@ namespace Engine.ViewModels
         }
 
 
+        /*public void MoveNorth()
+        {
+            if(HasLocationToNorth)
+            {
+                CurrentLocation = CurrentWorld.LocationAt(CurrentLocation.XCoordinate, CurrentLocation.YCoordinate + 1);
+            }
+        } */
+
         public void MoveNorth()
         {
-            CurrentLocation = CurrentWorld.GetLocation(CurrentLocation.XCoordinate, CurrentLocation.YCoordinate + 1); // move up
+            if(HasLocationToNorth)
+            {
+                CurrentLocation = CurrentWorld.LocationAt(CurrentLocation.XCoordinate, CurrentLocation.YCoordinate + 1);
+            }
         }
 
         public void MoveWest()
         {
-            CurrentLocation = CurrentWorld.GetLocation(CurrentLocation.XCoordinate - 1, CurrentLocation.YCoordinate); // move left
+            if(HasLocationToWest)
+            {
+            CurrentLocation =  CurrentWorld.LocationAt(CurrentLocation.XCoordinate - 1, CurrentLocation.YCoordinate); // move left
+            }
         }
 
         public void MoveEast()
-        {
-            CurrentLocation = CurrentWorld.GetLocation(CurrentLocation.XCoordinate + 1, CurrentLocation.YCoordinate); // move right
+        {   
+            if(HasLocationToEast)
+            {
+            CurrentLocation = CurrentWorld.LocationAt(CurrentLocation.XCoordinate + 1, CurrentLocation.YCoordinate); // move right
+            }
         }
 
         public void MoveSouth()
-        {
-            CurrentLocation = CurrentWorld.GetLocation(CurrentLocation.XCoordinate, CurrentLocation.YCoordinate - 1); // move down
+        {    
+            if(HasLocationToSouth)
+            {
+            CurrentLocation =  CurrentWorld.LocationAt(CurrentLocation.XCoordinate, CurrentLocation.YCoordinate - 1); // move down
+            }
         }
     }
 }

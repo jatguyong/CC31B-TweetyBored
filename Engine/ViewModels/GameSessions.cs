@@ -1,4 +1,4 @@
-﻿using Engine.Factories;
+using Engine.Factories;
 using Engine.Models;
 using System;
 using System.Collections.Generic;
@@ -17,7 +17,7 @@ namespace Engine.ViewModels
 
         public GameSession()
         {
-           CurrentPlayer = new Player
+            CurrentPlayer = new Player
             {
                 Name = "User", // name must be user input
                 CharacterClass = "Soulweaver",
@@ -27,13 +27,14 @@ namespace Engine.ViewModels
                 ExperiencePoints = 0
             };
 
-             // Use the static CreateWorld method directly.
-             CurrentWorld = WorldFactory.CreateWorld();
-             CurrentLocation = CurrentWorld.GetLocation(0, 0);
+            // Use the static CreateWorld method directly.
+            CurrentWorld = WorldFactory.CreateWorld();
+            CurrentLocation = CurrentWorld.GetLocation(0, 0);
         }
 
 
-        public Location CurrentLocation {
+        public Location CurrentLocation
+        {
             get
             {
                 return _currentLocation;
@@ -43,16 +44,17 @@ namespace Engine.ViewModels
                 _currentLocation = value;
                 OnPropertyChanged(nameof(CurrentLocation));
                 // refresh the value for these ff boolean properties every time location changes:
-                OnPropertyChanged(nameof(HasLocationToNorth)); 
+                OnPropertyChanged(nameof(HasLocationToNorth));
                 OnPropertyChanged(nameof(HasLocationToEast));
                 OnPropertyChanged(nameof(HasLocationToWest));
                 OnPropertyChanged(nameof(HasLocationToSouth));
 
-            } 
+            }
         }
         public World CurrentWorld { get; set; }
 
-        public bool HasLocationToNorth {
+        public bool HasLocationToNorth
+        {
             get
             {
                 return CurrentWorld.GetLocation(CurrentLocation.XCoordinate, CurrentLocation.YCoordinate + 1) != null;
@@ -90,33 +92,33 @@ namespace Engine.ViewModels
 
         public void MoveNorth()
         {
-            if(HasLocationToNorth)
+            if (HasLocationToNorth)
             {
-                CurrentLocation = CurrentWorld.LocationAt(CurrentLocation.XCoordinate, CurrentLocation.YCoordinate + 1); // move up
+                CurrentLocation = CurrentWorld.GetLocation(CurrentLocation.XCoordinate, CurrentLocation.YCoordinate + 1); // move up
             }
         }
 
         public void MoveWest()
         {
-            if(HasLocationToWest)
+            if (HasLocationToWest)
             {
-            CurrentLocation =  CurrentWorld.LocationAt(CurrentLocation.XCoordinate - 1, CurrentLocation.YCoordinate); // move left
+                CurrentLocation = CurrentWorld.GetLocation(CurrentLocation.XCoordinate - 1, CurrentLocation.YCoordinate); // move left
             }
         }
 
         public void MoveEast()
-        {   
-            if(HasLocationToEast)
+        {
+            if (HasLocationToEast)
             {
-            CurrentLocation = CurrentWorld.LocationAt(CurrentLocation.XCoordinate + 1, CurrentLocation.YCoordinate); // move right
+                CurrentLocation = CurrentWorld.GetLocation(CurrentLocation.XCoordinate + 1, CurrentLocation.YCoordinate); // move right
             }
         }
 
         public void MoveSouth()
-        {    
-            if(HasLocationToSouth)
+        {
+            if (HasLocationToSouth)
             {
-            CurrentLocation =  CurrentWorld.LocationAt(CurrentLocation.XCoordinate, CurrentLocation.YCoordinate - 1); // move down
+                CurrentLocation = CurrentWorld.GetLocation(CurrentLocation.XCoordinate, CurrentLocation.YCoordinate - 1); // move down
             }
         }
     }

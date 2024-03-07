@@ -88,19 +88,11 @@ namespace Engine.ViewModels
         }
 
 
-        /*public void MoveNorth()
-        {
-            if(HasLocationToNorth)
-            {
-                CurrentLocation = CurrentWorld.LocationAt(CurrentLocation.XCoordinate, CurrentLocation.YCoordinate + 1);
-            }
-        } */
-
         public void MoveNorth()
         {
             if(HasLocationToNorth)
             {
-                CurrentLocation = CurrentWorld.LocationAt(CurrentLocation.XCoordinate, CurrentLocation.YCoordinate + 1);
+                CurrentLocation = CurrentWorld.LocationAt(CurrentLocation.XCoordinate, CurrentLocation.YCoordinate + 1); // move up
             }
         }
 

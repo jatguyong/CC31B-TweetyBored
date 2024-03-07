@@ -27,9 +27,9 @@ namespace Engine.ViewModels
                 ExperiencePoints = 0
             };
 
-            WorldFactory worldFactory = new WorldFactory();
-            CurrentWorld = worldFactory.CreateWorld(); // the CurrentWorld is whatever the WorldFactory created in its CreateWorld()
-            CurrentLocation = CurrentWorld.GetLocation(0, 0);
+             // Use the static CreateWorld method directly.
+             CurrentWorld = WorldFactory.CreateWorld();
+             CurrentLocation = CurrentWorld.GetLocation(0, 0);
         }
 
 

@@ -1,10 +1,10 @@
-﻿using Engine.Models;
-using Microsoft.VisualBasic;
+﻿using Microsoft.VisualBasic;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Engine.Models;
 
 namespace Engine.Factories
 {
@@ -15,12 +15,27 @@ namespace Engine.Factories
         static ItemFactory()
         {
             _standardGameItems = new List<GameItem>();
-            _standardGameItems.Add(new Weapon("1001", "Pointy Stick", 99, "image.png", 0, 100)); // example
+            _standardGameItems.Add(new Weapon(1001, "Inferno Blade", 199, 1, 50, 100));
+            _standardGameItems.Add(new Weapon(1002, "Shadowstrike Scythe", 250, 2, 90, 200));
         }
 
-        public static void CreateGameItem()
+
+        public GameItem CreateGameItem(int itemTypeID)
         {
-            // next instructions: After creating the static constructor and initializing the GameItems... {onwards}
+            // create new instances of game items
+
+            if (_standardGameItems != null)
+            {
+                foreach(GameItem item in _standardGameItems)
+                {
+                    if(item.ItemTypeID == itemTypeID)
+                    {
+                        return item.Clone();
+                    }
+                }
+            }
+
+            return null;
         }
     }
 }

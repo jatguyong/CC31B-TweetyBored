@@ -11,14 +11,15 @@ namespace Engine.Models
         public int MinimumDamage { get; set; }
         public int MaximumDamage { get; set; }
 
-        public Weapon(string itemTypeID, string name, int price, string imageName, int minimumDamage, int maximumDamage) : base(itemTypeID, name, price, imageName)
+        public Weapon(int itemTypeID, string name, int price, int imageName, int minimumDamage, int maximumDamage) : base(itemTypeID, name, price, imageName)
         {
             MinimumDamage = minimumDamage;
             MaximumDamage = maximumDamage;
         }
 
-        
-
-
+        public override Weapon Clone()
+        {
+            return new Weapon(ItemTypeID, Name, Price, ImageName, MinimumDamage, MaximumDamage);
+        }
     }
 }

@@ -10,7 +10,7 @@ namespace Engine.Models
     {
         private string _itemTypeID;
         private string _name;
-        private string _price;
+        private int _price;
         private string _imageName;
         
 
@@ -19,7 +19,7 @@ namespace Engine.Models
         public int Price { get; set; }
         public string ImageName { get; set; }
 
-        public GameItem(string itemTypeID, string name, string price, string imageName) { 
+        public GameItem(string itemTypeID, string name, int price, string imageName) { 
             _itemTypeID = itemTypeID;
             _name = name;
             _price = price;

@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Engine.Models
 {
-    internal class Weapon
+    public class Weapon : GameItem
     {
+        
     }
 }

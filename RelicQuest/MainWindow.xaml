@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:RelicQuest"
+        xmlns:local="clr-namespace:RelicQuest" xmlns:viewmodels="clr-namespace:Engine.ViewModels;assembly=Engine" d:DataContext="{d:DesignInstance Type=viewmodels:GameSession}"
         mc:Ignorable="d"
         Title="Relic Quest: Secrets Unveiled" Height="768" Width="1024">
 
@@ -92,6 +92,12 @@
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
+
+            <Image Grid.Row="2"
+               HorizontalAlignment="Center"
+               Height="125"
+               Width="125"
+               Source="{Binding GameItem.ImageName}"/>   
 
             <Label Grid.Row="2" Grid.Column="0" Content="ITEM" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="#EBD9B4"/>
             <Label Grid.Row="2" Grid.Column="1" Content="ITEM BUTTONS" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="#EBD9B4"/>

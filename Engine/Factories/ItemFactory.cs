@@ -8,15 +8,15 @@ using Engine.Models;
 
 namespace Engine.Factories
 {
-    internal class ItemFactory
+    public class ItemFactory
     {
         private static List<GameItem> _standardGameItems;
 
         static ItemFactory()
         {
             _standardGameItems = new List<GameItem>();
-            _standardGameItems.Add(new Weapon(1001, "Inferno Blade", 199, " ", 50, 100));
-            _standardGameItems.Add(new Weapon(1002, "Shadowstrike Scythe", 250, " ", 90, 200));
+            _standardGameItems.Add(new Weapon(1001, "Inferno Blade", 199, "pack://application:,,,/Engine;component/Images/Locations/inferno_blade.png", 50, 100));
+            _standardGameItems.Add(new Weapon(1002, "Shadowstrike Scythe", 250, "pack://application:,,,/Engine;component/Images/Locations/shadowstrike_scythe.png", 90, 200));
         }
 
 

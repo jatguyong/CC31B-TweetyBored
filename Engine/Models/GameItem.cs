@@ -19,7 +19,7 @@ namespace Engine.Models
             Name = name;
             Price = price;
             ImageName = imageName;
-        }
+        }x
 
         public virtual GameItem Clone()
         {

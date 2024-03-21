@@ -20,7 +20,7 @@ namespace Engine.Factories
         }
 
 
-        public GameItem CreateGameItem(int itemTypeID)
+        public static GameItem CreateGameItem(int itemTypeID)
         {
             // create new instances of game items
 

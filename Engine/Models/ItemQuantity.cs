@@ -8,6 +8,7 @@ namespace Engine.Models
 {
     public class ItemQuantity
     {
+        // the class where items needed for a given quest are stored
         public int ItemID {  get; set; }
         public int Quantity { get; set; }
         public ItemQuantity(int itemID, int quantity) 

@@ -15,8 +15,8 @@ namespace Engine.Factories
         static ItemFactory()
         {
             _standardGameItems = new List<GameItem>();
-            _standardGameItems.Add(new Weapon(1001, "Inferno Blade", 199, 1, 50, 100));
-            _standardGameItems.Add(new Weapon(1002, "Shadowstrike Scythe", 250, 2, 90, 200));
+            _standardGameItems.Add(new Weapon(1001, "Inferno Blade", 199, " ", 50, 100));
+            _standardGameItems.Add(new Weapon(1002, "Shadowstrike Scythe", 250, " ", 90, 200));
         }
 
 

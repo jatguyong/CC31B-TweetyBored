@@ -12,14 +12,14 @@ namespace Engine.Models
         public int ItemTypeID { get; set; }
         public string Name { get; set; }
         public int Price { get; set; }
-        public int ImageName { get; set; }
+        public string ImageName { get; set; }
 
-        public GameItem(int itemTypeID, string name, int price, int imageName) { 
+        public GameItem(int itemTypeID, string name, int price, string imageName) {
             ItemTypeID = itemTypeID;
             Name = name;
             Price = price;
             ImageName = imageName;
-        }x
+        }
 
         public virtual GameItem Clone()
         {

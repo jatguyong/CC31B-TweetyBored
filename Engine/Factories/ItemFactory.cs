@@ -15,8 +15,14 @@ namespace Engine.Factories
         static ItemFactory()
         {
             _standardGameItems = new List<GameItem>();
-            _standardGameItems.Add(new Weapon(1001, "Inferno Blade", 199, "pack://application:,,,/Engine;component/Images/Locations/inferno_blade.png", 50, 100));
-            _standardGameItems.Add(new Weapon(1002, "Shadowstrike Scythe", 250, "pack://application:,,,/Engine;component/Images/Locations/shadowstrike_scythe.png", 90, 200));
+            _standardGameItems.Add(new Weapon(1001, "Inferno Blade", 199, "pack://application:,,,/Engine;component/Images/Weapons/inferno_blade.png", 50, 70));
+            _standardGameItems.Add(new Weapon(1002, "Shadowstrike Scythe", 250, "pack://application:,,,/Engine;component/Images/Weapons/shadowstrike_scythe.png", 70, 90));
+            
+            _standardGameItems.Add(new Fragment(1003, "Oasis Fragment", 0, "pack://application:,,,/Engine;component/Images/Fragments/fragment.png"));
+            _standardGameItems.Add(new Fragment(1004, "Summit Fragment", 0, "pack://application:,,,/Engine;component/Images/Fragments/fragment.png"));
+            _standardGameItems.Add(new Fragment(1005, "Wasteland Fragment", 0, "pack://application:,,,/Engine;component/Images/Fragments/fragment.png"));
+            _standardGameItems.Add(new Fragment(1006, "Grove Fragment", 0, "pack://application:,,,/Engine;component/Images/Fragments/fragment.png"));
+            _standardGameItems.Add(new Fragment(1007, "Abandoned Dungeon Fragment", 0, "pack://application:,,,/Engine;component/Images/Fragments/fragment.png"));
         }
 
 

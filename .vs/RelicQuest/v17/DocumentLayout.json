@@ -1,30 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\itsje\\OneDrive\\Documents\\CSharp\\RelicQuest\\",
+  "WorkspaceRootPath": "C:\\Users\\m303user\\Documents\\ja\\cc3\\tb\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{70A6AD7F-E19C-439F-8EBB-C0D8B77149CC}|RelicQuest\\RelicQuest.csproj|c:\\users\\itsje\\onedrive\\documents\\csharp\\relicquest\\relicquest\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{70A6AD7F-E19C-439F-8EBB-C0D8B77149CC}|RelicQuest\\RelicQuest.csproj|solutionrelative:relicquest\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA81ACC0-2891-4ADA-9B2C-BF9EB6029968}|Engine\\Engine.csproj|c:\\users\\itsje\\onedrive\\documents\\csharp\\relicquest\\engine\\models\\gameitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA81ACC0-2891-4ADA-9B2C-BF9EB6029968}|Engine\\Engine.csproj|solutionrelative:engine\\models\\gameitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA81ACC0-2891-4ADA-9B2C-BF9EB6029968}|Engine\\Engine.csproj|c:\\users\\itsje\\onedrive\\documents\\csharp\\relicquest\\engine\\factories\\questfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA81ACC0-2891-4ADA-9B2C-BF9EB6029968}|Engine\\Engine.csproj|solutionrelative:engine\\factories\\questfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA81ACC0-2891-4ADA-9B2C-BF9EB6029968}|Engine\\Engine.csproj|c:\\users\\itsje\\onedrive\\documents\\csharp\\relicquest\\engine\\factories\\itemfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CA81ACC0-2891-4ADA-9B2C-BF9EB6029968}|Engine\\Engine.csproj|c:\\users\\m303user\\documents\\ja\\cc3\\tb\\engine\\factories\\itemfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CA81ACC0-2891-4ADA-9B2C-BF9EB6029968}|Engine\\Engine.csproj|solutionrelative:engine\\factories\\itemfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA81ACC0-2891-4ADA-9B2C-BF9EB6029968}|Engine\\Engine.csproj|c:\\users\\itsje\\onedrive\\documents\\csharp\\relicquest\\engine\\models\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CA81ACC0-2891-4ADA-9B2C-BF9EB6029968}|Engine\\Engine.csproj|c:\\users\\m303user\\documents\\ja\\cc3\\tb\\engine\\models\\fragment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA81ACC0-2891-4ADA-9B2C-BF9EB6029968}|Engine\\Engine.csproj|solutionrelative:engine\\models\\fragment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70A6AD7F-E19C-439F-8EBB-C0D8B77149CC}|RelicQuest\\RelicQuest.csproj|c:\\users\\m303user\\documents\\ja\\cc3\\tb\\relicquest\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{70A6AD7F-E19C-439F-8EBB-C0D8B77149CC}|RelicQuest\\RelicQuest.csproj|solutionrelative:relicquest\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA81ACC0-2891-4ADA-9B2C-BF9EB6029968}|Engine\\Engine.csproj|c:\\users\\m303user\\documents\\ja\\cc3\\tb\\engine\\models\\gameitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA81ACC0-2891-4ADA-9B2C-BF9EB6029968}|Engine\\Engine.csproj|solutionrelative:engine\\models\\gameitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA81ACC0-2891-4ADA-9B2C-BF9EB6029968}|Engine\\Engine.csproj|c:\\users\\m303user\\documents\\ja\\cc3\\tb\\engine\\models\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CA81ACC0-2891-4ADA-9B2C-BF9EB6029968}|Engine\\Engine.csproj|solutionrelative:engine\\models\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA81ACC0-2891-4ADA-9B2C-BF9EB6029968}|Engine\\Engine.csproj|c:\\users\\itsje\\onedrive\\documents\\csharp\\relicquest\\engine\\viewmodels\\gamesessions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CA81ACC0-2891-4ADA-9B2C-BF9EB6029968}|Engine\\Engine.csproj|c:\\users\\m303user\\documents\\ja\\cc3\\tb\\engine\\factories\\questfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA81ACC0-2891-4ADA-9B2C-BF9EB6029968}|Engine\\Engine.csproj|solutionrelative:engine\\factories\\questfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA81ACC0-2891-4ADA-9B2C-BF9EB6029968}|Engine\\Engine.csproj|c:\\users\\m303user\\documents\\ja\\cc3\\tb\\engine\\factories\\worldfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA81ACC0-2891-4ADA-9B2C-BF9EB6029968}|Engine\\Engine.csproj|solutionrelative:engine\\factories\\worldfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA81ACC0-2891-4ADA-9B2C-BF9EB6029968}|Engine\\Engine.csproj|c:\\users\\m303user\\documents\\ja\\cc3\\tb\\engine\\viewmodels\\gamesessions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CA81ACC0-2891-4ADA-9B2C-BF9EB6029968}|Engine\\Engine.csproj|solutionrelative:engine\\viewmodels\\gamesessions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA81ACC0-2891-4ADA-9B2C-BF9EB6029968}|Engine\\Engine.csproj|c:\\users\\m303user\\documents\\ja\\cc3\\tb\\engine\\models\\world.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA81ACC0-2891-4ADA-9B2C-BF9EB6029968}|Engine\\Engine.csproj|solutionrelative:engine\\models\\world.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,17 +46,51 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Fragment.cs",
+              "DocumentMoniker": "C:\\Users\\m303user\\Documents\\ja\\cc3\\tb\\Engine\\Models\\Fragment.cs",
+              "RelativeDocumentMoniker": "Engine\\Models\\Fragment.cs",
+              "ToolTip": "C:\\Users\\m303user\\Documents\\ja\\cc3\\tb\\Engine\\Models\\Fragment.cs*",
+              "RelativeToolTip": "Engine\\Models\\Fragment.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T16:47:51.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ItemFactory.cs",
+              "DocumentMoniker": "C:\\Users\\m303user\\Documents\\ja\\cc3\\tb\\Engine\\Factories\\ItemFactory.cs",
+              "RelativeDocumentMoniker": "Engine\\Factories\\ItemFactory.cs",
+              "ToolTip": "C:\\Users\\m303user\\Documents\\ja\\cc3\\tb\\Engine\\Factories\\ItemFactory.cs",
+              "RelativeToolTip": "Engine\\Factories\\ItemFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T15:16:14.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "GameItem.cs",
-              "DocumentMoniker": "C:\\Users\\itsje\\OneDrive\\Documents\\CSharp\\RelicQuest\\Engine\\Models\\GameItem.cs",
+              "DocumentMoniker": "C:\\Users\\m303user\\Documents\\ja\\cc3\\tb\\Engine\\Models\\GameItem.cs",
               "RelativeDocumentMoniker": "Engine\\Models\\GameItem.cs",
-              "ToolTip": "C:\\Users\\itsje\\OneDrive\\Documents\\CSharp\\RelicQuest\\Engine\\Models\\GameItem.cs*",
-              "RelativeToolTip": "Engine\\Models\\GameItem.cs*",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAAAJAAAA",
+              "ToolTip": "C:\\Users\\m303user\\Documents\\ja\\cc3\\tb\\Engine\\Models\\GameItem.cs",
+              "RelativeToolTip": "Engine\\Models\\GameItem.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAewA0AAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-21T15:16:22.676Z",
               "EditorCaption": ""
@@ -53,66 +99,75 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Weapon.cs",
-              "DocumentMoniker": "C:\\Users\\itsje\\OneDrive\\Documents\\CSharp\\RelicQuest\\Engine\\Models\\Weapon.cs",
+              "DocumentMoniker": "C:\\Users\\m303user\\Documents\\ja\\cc3\\tb\\Engine\\Models\\Weapon.cs",
               "RelativeDocumentMoniker": "Engine\\Models\\Weapon.cs",
-              "ToolTip": "C:\\Users\\itsje\\OneDrive\\Documents\\CSharp\\RelicQuest\\Engine\\Models\\Weapon.cs*",
-              "RelativeToolTip": "Engine\\Models\\Weapon.cs*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAJAAAA",
+              "ToolTip": "C:\\Users\\m303user\\Documents\\ja\\cc3\\tb\\Engine\\Models\\Weapon.cs",
+              "RelativeToolTip": "Engine\\Models\\Weapon.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBYAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-21T15:16:26.168Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ItemFactory.cs",
-              "DocumentMoniker": "C:\\Users\\itsje\\OneDrive\\Documents\\CSharp\\RelicQuest\\Engine\\Factories\\ItemFactory.cs",
-              "RelativeDocumentMoniker": "Engine\\Factories\\ItemFactory.cs",
-              "ToolTip": "C:\\Users\\itsje\\OneDrive\\Documents\\CSharp\\RelicQuest\\Engine\\Factories\\ItemFactory.cs",
-              "RelativeToolTip": "Engine\\Factories\\ItemFactory.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABUAAAA",
+              "DocumentIndex": 6,
+              "Title": "WorldFactory.cs",
+              "DocumentMoniker": "C:\\Users\\m303user\\Documents\\ja\\cc3\\tb\\Engine\\Factories\\WorldFactory.cs",
+              "RelativeDocumentMoniker": "Engine\\Factories\\WorldFactory.cs",
+              "ToolTip": "C:\\Users\\m303user\\Documents\\ja\\cc3\\tb\\Engine\\Factories\\WorldFactory.cs",
+              "RelativeToolTip": "Engine\\Factories\\WorldFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABTAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-21T15:16:14.358Z",
+              "WhenOpened": "2024-03-21T16:34:58.153Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "World.cs",
+              "DocumentMoniker": "C:\\Users\\m303user\\Documents\\ja\\cc3\\tb\\Engine\\Models\\World.cs",
+              "RelativeDocumentMoniker": "Engine\\Models\\World.cs",
+              "ToolTip": "C:\\Users\\m303user\\Documents\\ja\\cc3\\tb\\Engine\\Models\\World.cs",
+              "RelativeToolTip": "Engine\\Models\\World.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T16:34:40.708Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "QuestFactory.cs",
-              "DocumentMoniker": "C:\\Users\\itsje\\OneDrive\\Documents\\CSharp\\RelicQuest\\Engine\\Factories\\QuestFactory.cs",
+              "DocumentMoniker": "C:\\Users\\m303user\\Documents\\ja\\cc3\\tb\\Engine\\Factories\\QuestFactory.cs",
               "RelativeDocumentMoniker": "Engine\\Factories\\QuestFactory.cs",
-              "ToolTip": "C:\\Users\\itsje\\OneDrive\\Documents\\CSharp\\RelicQuest\\Engine\\Factories\\QuestFactory.cs*",
-              "RelativeToolTip": "Engine\\Factories\\QuestFactory.cs*",
-              "ViewState": "AQIAABYAAAAAAAAAAAAQwCgAAAAsAAAA",
+              "ToolTip": "C:\\Users\\m303user\\Documents\\ja\\cc3\\tb\\Engine\\Factories\\QuestFactory.cs",
+              "RelativeToolTip": "Engine\\Factories\\QuestFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-21T15:15:32.111Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "GameSessions.cs",
-              "DocumentMoniker": "C:\\Users\\itsje\\OneDrive\\Documents\\CSharp\\RelicQuest\\Engine\\ViewModels\\GameSessions.cs",
+              "DocumentMoniker": "C:\\Users\\m303user\\Documents\\ja\\cc3\\tb\\Engine\\ViewModels\\GameSessions.cs",
               "RelativeDocumentMoniker": "Engine\\ViewModels\\GameSessions.cs",
-              "ToolTip": "C:\\Users\\itsje\\OneDrive\\Documents\\CSharp\\RelicQuest\\Engine\\ViewModels\\GameSessions.cs",
+              "ToolTip": "C:\\Users\\m303user\\Documents\\ja\\cc3\\tb\\Engine\\ViewModels\\GameSessions.cs",
               "RelativeToolTip": "Engine\\ViewModels\\GameSessions.cs",
-              "ViewState": "AQIAAGQAAAAAAAAAAIA6wDcAAAAmAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-03T14:13:13.702Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\itsje\\OneDrive\\Documents\\CSharp\\RelicQuest\\RelicQuest\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\m303user\\Documents\\ja\\cc3\\tb\\RelicQuest\\MainWindow.xaml",
               "RelativeDocumentMoniker": "RelicQuest\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\itsje\\OneDrive\\Documents\\CSharp\\RelicQuest\\RelicQuest\\MainWindow.xaml",
-              "RelativeToolTip": "RelicQuest\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\m303user\\Documents\\ja\\cc3\\tb\\RelicQuest\\MainWindow.xaml*",
+              "RelativeToolTip": "RelicQuest\\MainWindow.xaml*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-03-03T13:51:01.226Z",
               "EditorCaption": ""

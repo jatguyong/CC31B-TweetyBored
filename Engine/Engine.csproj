@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Images\Fragments\fragment.png" />
     <None Remove="Images\Locations\abandoned_dungeon.png" />
     <None Remove="Images\Locations\coastal.png" />
     <None Remove="Images\Locations\grove.png" />
@@ -23,6 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="Images\Fragments\fragment.png" />
     <Resource Include="Images\Weapons\shadowstrike_scythe.png" />
   </ItemGroup>
 

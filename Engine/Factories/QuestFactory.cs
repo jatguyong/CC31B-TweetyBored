@@ -14,7 +14,20 @@ namespace Engine.Factories
         static QuestFactory()
         {
             _standardQuests = new List<Quest>();
-            // _standardQuests.Add(new Quest()); 
+            _standardQuests.Add(new Quest(
+                1,
+                "Battle",
+                "Defeat the Phantom",
+                new List<ItemQuantity> { new ItemQuantity(1,1)},
+                25,10,
+                new List<ItemQuantity> { new ItemQuantity(1001,1) }));
+            _standardQuests.Add(new Quest(
+                2, 
+                "Battle2", 
+                "Defeat the enemy",
+                 new List<ItemQuantity> { new ItemQuantity(2, 1) }, 
+                25, 5,
+                new List<ItemQuantity> { new ItemQuantity(1001, 2) }));
 
             // instantiate a quest; add the required arguments to parameters of Quest()
         }

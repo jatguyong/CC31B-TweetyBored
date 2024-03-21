@@ -24,8 +24,29 @@ namespace Engine.Factories
             _standardQuests.Add(new Quest(
                 2, 
                 "Battle2", 
-                "Defeat the enemy",
+                "Defeat the Ghouls",
                  new List<ItemQuantity> { new ItemQuantity(2, 1) }, 
+                25, 5,
+                new List<ItemQuantity> { new ItemQuantity(1001, 2) }));
+            _standardQuests.Add(new Quest(
+                3,
+                "Battle3",
+                "Defeat the Goblins",
+                 new List<ItemQuantity> { new ItemQuantity(3, 1) },
+                25, 5,
+                new List<ItemQuantity> { new ItemQuantity(1001, 2) }));
+            _standardQuests.Add(new Quest(
+                4,
+                "Battle4",
+                "Defeat the Warlocks",
+                 new List<ItemQuantity> { new ItemQuantity(4, 1) },
+                25, 5,
+                new List<ItemQuantity> { new ItemQuantity(1001, 2) }));
+            _standardQuests.Add(new Quest(
+                5,
+                "Battle5",
+                "Defeat the Scorchflame",
+                 new List<ItemQuantity> { new ItemQuantity(5, 1) },
                 25, 5,
                 new List<ItemQuantity> { new ItemQuantity(1001, 2) }));
         }

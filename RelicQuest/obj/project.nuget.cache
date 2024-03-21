@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "dEG61zRKT5tS0S8hBUjqCYKxB6/AbKCipmZmGLXN8K/aNEZAuGUGbgmSqrylms/6gzpfBdAptdpdN6LY+yXOxA==",
   "success": true,
   "projectFilePath": "C:\\Users\\m303user\\Documents\\ja\\cc3\\tb\\RelicQuest\\RelicQuest.csproj",
+=======
+  "dgSpecHash": "9PnR7V5FyBkhewZJ95gGECtswTE7sX7arR0e7Wt2f4/7zWqCFitQr2JiNm2LtlNlYHps6Lo9+Ac7sBmuqRoEcw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\m303user\\Source\\Repos\\CC31B-TweetyBored\\RelicQuest\\RelicQuest.csproj",
+>>>>>>> e4bf00ad935a48ff998b8d4f75fde1e74305266f
   "expectedPackageFiles": [],
   "logs": []
 }

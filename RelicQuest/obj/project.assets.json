@@ -33,11 +33,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\m303user\\Documents\\ja\\cc3\\tb\\RelicQuest\\RelicQuest.csproj",
       "projectName": "RelicQuest",
       "projectPath": "C:\\Users\\m303user\\Documents\\ja\\cc3\\tb\\RelicQuest\\RelicQuest.csproj",
       "packagesPath": "C:\\Users\\m303user\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\m303user\\Documents\\ja\\cc3\\tb\\RelicQuest\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\m303user\\Source\\Repos\\CC31B-TweetyBored\\RelicQuest\\RelicQuest.csproj",
+      "projectName": "RelicQuest",
+      "projectPath": "C:\\Users\\m303user\\Source\\Repos\\CC31B-TweetyBored\\RelicQuest\\RelicQuest.csproj",
+      "packagesPath": "C:\\Users\\m303user\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\m303user\\Source\\Repos\\CC31B-TweetyBored\\RelicQuest\\obj\\",
+>>>>>>> e4bf00ad935a48ff998b8d4f75fde1e74305266f
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -59,8 +67,13 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
+<<<<<<< HEAD
             "C:\\Users\\m303user\\Documents\\ja\\cc3\\tb\\Engine\\Engine.csproj": {
               "projectPath": "C:\\Users\\m303user\\Documents\\ja\\cc3\\tb\\Engine\\Engine.csproj"
+=======
+            "C:\\Users\\m303user\\Source\\Repos\\CC31B-TweetyBored\\Engine\\Engine.csproj": {
+              "projectPath": "C:\\Users\\m303user\\Source\\Repos\\CC31B-TweetyBored\\Engine\\Engine.csproj"
+>>>>>>> e4bf00ad935a48ff998b8d4f75fde1e74305266f
             }
           }
         }

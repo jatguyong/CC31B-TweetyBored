@@ -7,7 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Images\Fragments\fragment.png" />
+    <None Remove="Images\Fragments\dungeon_fragment.png" />
+    <None Remove="Images\Fragments\grove_fragment.png" />
+    <None Remove="Images\Fragments\oasis_fragment.png" />
+    <None Remove="Images\Fragments\summit_fragment.png" />
+    <None Remove="Images\Fragments\wasteland_fragment.png" />
     <None Remove="Images\Locations\abandoned_dungeon.png" />
     <None Remove="Images\Locations\coastal.png" />
     <None Remove="Images\Locations\grove.png" />
@@ -24,7 +28,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="Images\Fragments\fragment.png" />
+    <Resource Include="Images\Fragments\grove_fragment.png" />
+    <Resource Include="Images\Fragments\oasis_fragment.png" />
+    <Resource Include="Images\Fragments\summit_fragment.png" />
+    <Resource Include="Images\Fragments\wasteland_fragment.png" />
     <Resource Include="Images\Weapons\shadowstrike_scythe.png" />
   </ItemGroup>
 
@@ -44,6 +51,10 @@
     <Resource Include="Images\Locations\wasteland.png" />
     <Resource Include="Images\Locations\woods.png" />
     <Resource Include="Images\Weapons\inferno_blade.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\Fragments\dungeon_fragment.png" />
   </ItemGroup>
 
 </Project>

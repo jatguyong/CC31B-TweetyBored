@@ -8,8 +8,8 @@ namespace Engine.Models.Items
 {
     public class Weapon : GameItem
     {
-        public int MinimumDamage { get; set; }
-        public int MaximumDamage { get; set; }
+        private int MinimumDamage { get; set; }
+        private int MaximumDamage { get; set; }
 
         public Weapon(int itemTypeID, string name, int price, string imageName, int minimumDamage, int maximumDamage) : base(itemTypeID, name, price, imageName)
         {
@@ -22,4 +22,6 @@ namespace Engine.Models.Items
             return new Weapon(ItemTypeID, Name, Price, ImageName, MinimumDamage, MaximumDamage);
         }
     }
+
+
 }

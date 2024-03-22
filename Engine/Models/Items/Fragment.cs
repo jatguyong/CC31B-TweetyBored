@@ -8,7 +8,7 @@ namespace Engine.Models.Items
 {
     public class Fragment : GameItem
     {
-        public int DropRate {  get; set; }
+        private int DropRate {  get; set; }
 
         public Fragment(int itemTypeID, string name, int price, string imageName, int dropRate) : base(itemTypeID, name, price, imageName)
         {

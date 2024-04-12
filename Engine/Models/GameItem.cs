@@ -21,7 +21,7 @@ namespace Engine.Models
             ImageName = imageName;
         }
 
-        public virtual GameItem Clone()
+        public GameItem Clone()
         {
             return new GameItem(ItemTypeID, Name, Price, ImageName);
         }

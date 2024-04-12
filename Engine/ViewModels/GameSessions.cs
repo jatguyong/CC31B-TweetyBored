@@ -11,15 +11,15 @@ namespace Engine.ViewModels
 {
     public class GameSession : BaseNotificationClass
     {
-        private Location _currentLocation;
-
         public Player CurrentPlayer { get; set; }
+        public World CurrentWorld { get; set; }
+        private Location _currentLocation;
 
         public GameSession()
         {
             CurrentPlayer = new Player
             {
-                Name = "User", // name must be user input
+                Name = "User",
                 CharacterClass = "Soulweaver",
                 Level = 1,
                 Coin = 0,
@@ -29,7 +29,9 @@ namespace Engine.ViewModels
 
             // Use the static CreateWorld method directly.
             CurrentWorld = WorldFactory.CreateWorld();
-            CurrentLocation = CurrentWorld.GetLocation(0, 0);
+            CurrentLocation = CurrentWorld.LocationAt(0, 0);
+
+
         }
 
 
@@ -51,14 +53,14 @@ namespace Engine.ViewModels
 
             }
         }
-        public World CurrentWorld { get; set; }
+        
 
         public bool HasLocationToNorth
         {
             get
             {
-                return CurrentWorld.GetLocation(CurrentLocation.XCoordinate, CurrentLocation.YCoordinate + 1) != null;
-                // checks if GetLocation returns an existing location
+                return CurrentWorld.LocationAt(CurrentLocation.XCoordinate, CurrentLocation.YCoordinate + 1) != null;
+                // checks if LocationAt returns an existing location
             }
         }
 
@@ -66,8 +68,8 @@ namespace Engine.ViewModels
         {
             get
             {
-                return CurrentWorld.GetLocation(CurrentLocation.XCoordinate - 1, CurrentLocation.YCoordinate) != null;
-                // checks if GetLocation returns an existing location
+                return CurrentWorld.LocationAt(CurrentLocation.XCoordinate - 1, CurrentLocation.YCoordinate) != null;
+                // checks if LocationAt returns an existing location
             }
         }
 
@@ -75,8 +77,8 @@ namespace Engine.ViewModels
         {
             get
             {
-                return CurrentWorld.GetLocation(CurrentLocation.XCoordinate + 1, CurrentLocation.YCoordinate) != null;
-                // checks if GetLocation returns an existing location
+                return CurrentWorld.LocationAt(CurrentLocation.XCoordinate + 1, CurrentLocation.YCoordinate) != null;
+                // checks if LocationAt returns an existing location
             }
         }
 
@@ -84,8 +86,8 @@ namespace Engine.ViewModels
         {
             get
             {
-                return CurrentWorld.GetLocation(CurrentLocation.XCoordinate, CurrentLocation.YCoordinate - 1) != null;
-                // checks if GetLocation returns an existing location
+                return CurrentWorld.LocationAt(CurrentLocation.XCoordinate, CurrentLocation.YCoordinate - 1) != null;
+                // checks if LocationAt returns an existing location
             }
         }
 
@@ -94,7 +96,7 @@ namespace Engine.ViewModels
         {
             if (HasLocationToNorth)
             {
-                CurrentLocation = CurrentWorld.GetLocation(CurrentLocation.XCoordinate, CurrentLocation.YCoordinate + 1); // move up
+                CurrentLocation = CurrentWorld.LocationAt(CurrentLocation.XCoordinate, CurrentLocation.YCoordinate + 1); // move up
             }
         }
 
@@ -102,7 +104,7 @@ namespace Engine.ViewModels
         {
             if (HasLocationToWest)
             {
-                CurrentLocation = CurrentWorld.GetLocation(CurrentLocation.XCoordinate - 1, CurrentLocation.YCoordinate); // move left
+                CurrentLocation = CurrentWorld.LocationAt(CurrentLocation.XCoordinate - 1, CurrentLocation.YCoordinate); // move left
             }
         }
 
@@ -110,7 +112,7 @@ namespace Engine.ViewModels
         {
             if (HasLocationToEast)
             {
-                CurrentLocation = CurrentWorld.GetLocation(CurrentLocation.XCoordinate + 1, CurrentLocation.YCoordinate); // move right
+                CurrentLocation = CurrentWorld.LocationAt(CurrentLocation.XCoordinate + 1, CurrentLocation.YCoordinate); // move right
             }
         }
 
@@ -118,7 +120,7 @@ namespace Engine.ViewModels
         {
             if (HasLocationToSouth)
             {
-                CurrentLocation = CurrentWorld.GetLocation(CurrentLocation.XCoordinate, CurrentLocation.YCoordinate - 1); // move down
+                CurrentLocation = CurrentWorld.LocationAt(CurrentLocation.XCoordinate, CurrentLocation.YCoordinate - 1); // move down
             }
         }
     }

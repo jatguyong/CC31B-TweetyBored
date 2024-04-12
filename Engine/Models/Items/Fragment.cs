@@ -15,7 +15,7 @@ namespace Engine.Models.Items
             DropRate = dropRate;
         }
 
-        public override Fragment Clone()
+        public new Fragment Clone()
         {
             return new Fragment(ItemTypeID, Name, Price, ImageName, DropRate);
         }

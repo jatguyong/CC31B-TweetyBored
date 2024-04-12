@@ -30,8 +30,6 @@ namespace Engine.ViewModels
             // Use the static CreateWorld method directly.
             CurrentWorld = WorldFactory.CreateWorld();
             CurrentLocation = CurrentWorld.LocationAt(0, 0);
-
-
         }
 
 

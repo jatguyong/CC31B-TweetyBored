@@ -16,8 +16,8 @@ namespace Engine.Factories
         static ItemFactory()
         {
             _standardGameItems = new List<GameItem>();
-            _standardGameItems.Add(new Weapon(1001, "Inferno Blade", 199, "pack://application:,,,/Engine;component/Images/Items/Weapons/inferno_blade.png", 50, 70));
-            _standardGameItems.Add(new Weapon(1002, "Shadowstrike Scythe", 250, "pack://application:,,,/Engine;component/Images/Items/Weapons/shadowstrike_scythe.png", 70, 90));
+            _standardGameItems.Add(new Weapon(1001, "Inferno Blade", 199, "pack://application:,,,/Engine;component/Images/Weapons/inferno_blade.png", 50, 70));
+            _standardGameItems.Add(new Weapon(1002, "Shadowstrike Scythe", 250, "pack://application:,,,/Engine;component/Images/Weapons/shadowstrike_scythe.png", 70, 90));
             
             /*
             _standardGameItems.Add(new Fragment(1003, "Oasis Fragment", 0, "pack://application:,,,/Engine;component/Images/Items/Fragments/oasis_fragment.png", 20));

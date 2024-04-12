@@ -7,13 +7,28 @@ using System.Threading.Tasks;
 
 namespace Engine.Factories
 {
-    public class QuestFactory
+    internal static class QuestFactory
     {
-        private static List<Quest> _standardQuests;
+        private static List<Quest> _standardQuests = new List<Quest>();
 
         static QuestFactory()
         {
-            _standardQuests = new List<Quest>();
+            // items needed to complete and its reward items
+            List<ItemQuantity> itemsToComplete = new List<ItemQuantity>();
+            List<ItemQuantity> rewardItems = new List<ItemQuantity>();
+
+            itemsToComplete.Add(new ItemQuantity(1001, 5));
+            rewardItems.Add(new ItemQuantity(2001, 1));
+
+            _standardQuests.Add(new Quest(
+                1,
+                "Retrieve a fragment",
+                "Defeat the phantoms in the grove to get the fragment",
+                itemsToComplete,
+                25, 10,
+                rewardItems));
+
+            /*
             _standardQuests.Add(new Quest(
                 1,
                 "Battle",
@@ -48,21 +63,12 @@ namespace Engine.Factories
                 "Defeat the Scorchflame",
                  new List<ItemQuantity> { new ItemQuantity(5, 1) },
                 25, 5,
-                new List<ItemQuantity> { new ItemQuantity(1001, 2) }));
+                new List<ItemQuantity> { new ItemQuantity(1001, 2) }));*/
         }
 
-        public Quest GetQuestByID(int id)
+        internal static Quest GetQuestByID(int id)
         {
-            if (_standardQuests != null)
-            {
-                foreach (Quest item in _standardQuests)
-                {
-                    if (item.ID == id)
-                    {
-                        return item; // return the quest
-                    }
-                }
-            }
+            return _standardQuests.FirstOrDefault(quest => quest.ID == id);
 
             return null;
         }

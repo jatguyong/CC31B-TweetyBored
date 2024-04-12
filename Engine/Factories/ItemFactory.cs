@@ -18,14 +18,12 @@ namespace Engine.Factories
             _standardGameItems = new List<GameItem>();
             _standardGameItems.Add(new Weapon(1001, "Inferno Blade", 199, "pack://application:,,,/Engine;component/Images/Weapons/inferno_blade.png", 50, 70));
             _standardGameItems.Add(new Weapon(1002, "Shadowstrike Scythe", 250, "pack://application:,,,/Engine;component/Images/Weapons/shadowstrike_scythe.png", 70, 90));
-            
-            /*
-            _standardGameItems.Add(new Fragment(1003, "Oasis Fragment", 0, "pack://application:,,,/Engine;component/Images/Items/Fragments/oasis_fragment.png", 20));
-            _standardGameItems.Add(new Fragment(1004, "Summit Fragment", 0, "pack://application:,,,/Engine;component/Images/Items/Fragments/summit_fragment.png", 20));
-            _standardGameItems.Add(new Fragment(1005, "Wasteland Fragment", 0, "pack://application:,,,/Engine;component/Images/Items/Fragments/wasteland_fragment.png", 20));
-            _standardGameItems.Add(new Fragment(1006, "Grove Fragment", 0, "pack://application:,,,/Engine;component/Images/Items/Fragments/grove_fragment.png", 20));
-            _standardGameItems.Add(new Fragment(1007, "Abandoned Dungeon Fragment", 0, "pack://application:,,,/Engine;component/Images/Items/Fragments/dungeon_fragment.png", 20));
-            */
+
+            _standardGameItems.Add(new Fragment(2001, "Grove Fragment", 0, "pack://application:,,,/Engine;component/Images/Items/Fragments/grove_fragment.png", 20));
+            _standardGameItems.Add(new Fragment(2002, "Wasteland Fragment", 0, "pack://application:,,,/Engine;component/Images/Items/Fragments/wasteland_fragment.png", 20));
+            _standardGameItems.Add(new Fragment(2003, "Abandoned Dungeon Fragment", 0, "pack://application:,,,/Engine;component/Images/Items/Fragments/dungeon_fragment.png", 20));
+            _standardGameItems.Add(new Fragment(2004, "Oasis Fragment", 0, "pack://application:,,,/Engine;component/Images/Items/Fragments/oasis_fragment.png", 20));
+            _standardGameItems.Add(new Fragment(2005, "Summit Fragment", 0, "pack://application:,,,/Engine;component/Images/Items/Fragments/summit_fragment.png", 20));
         }
 
 

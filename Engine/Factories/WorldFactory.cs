@@ -36,6 +36,11 @@ namespace Engine.Factories
 
             newWorld.CreateLocation(0, 4,
                 "OASIS",
+                "A place where only the bravest will make the ascent and be rewarded with the ultimate test of their will and spirit ",
+                "pack://application:,,,/Engine;component/Images/Locations/summit.png");
+
+            newWorld.CreateLocation(1, 5,
+                "SUMMIT",
                 "A hidden place where dark arts remain from those who seek the wisdom of the ancients",
                 "pack://application:,,,/Engine;component/Images/Locations/oasis.png");
 

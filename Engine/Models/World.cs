@@ -8,7 +8,7 @@ namespace Engine.Models
 {
     public class World
     {
-        private List<Location> _locations = new List<Location>();
+        private readonly List<Location> _locations = new List<Location>();
         internal void CreateLocation(int x, int y, string name, string description, string imageName)
         {
             Location location = new Location();
@@ -17,7 +17,6 @@ namespace Engine.Models
             location.Name = name;
             location.Description = description;
             location.ImageName = imageName;
-
             _locations.Add(location); // add  the created location to the list
         }
 

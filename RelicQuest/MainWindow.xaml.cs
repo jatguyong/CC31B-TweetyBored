@@ -19,7 +19,7 @@ namespace RelicQuest
     /// </summary>
     public partial class MainWindow : Window
     {
-        private GameSession _gameSession;
+        private readonly GameSession _gameSession = new GameSession();
         public MainWindow()
         {
             InitializeComponent();

@@ -21,7 +21,7 @@ namespace Engine.Models
             _locations.Add(location); // add  the created location to the list
         }
 
-        public Location GetLocation(int x, int y)
+        public Location LocationAt(int x, int y)
         {
             foreach(Location location in _locations)
             {

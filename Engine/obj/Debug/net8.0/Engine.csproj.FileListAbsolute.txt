@@ -24,3 +24,29 @@ C:\Users\m303user\Documents\ja\cc3\TweetyBored\Engine\obj\Debug\net8.0\Engine.dl
 C:\Users\m303user\Documents\ja\cc3\TweetyBored\Engine\obj\Debug\net8.0\refint\Engine.dll
 C:\Users\m303user\Documents\ja\cc3\TweetyBored\Engine\obj\Debug\net8.0\Engine.pdb
 C:\Users\m303user\Documents\ja\cc3\TweetyBored\Engine\obj\Debug\net8.0\ref\Engine.dll
+C:\Users\NITRO 5\Source\Repos\CC31B-TweetyBored\Engine\bin\Debug\net8.0\Engine.deps.json
+C:\Users\NITRO 5\Source\Repos\CC31B-TweetyBored\Engine\bin\Debug\net8.0\Engine.dll
+C:\Users\NITRO 5\Source\Repos\CC31B-TweetyBored\Engine\bin\Debug\net8.0\Engine.pdb
+C:\Users\NITRO 5\Source\Repos\CC31B-TweetyBored\Engine\obj\Debug\net8.0\Engine.g.resources
+C:\Users\NITRO 5\Source\Repos\CC31B-TweetyBored\Engine\obj\Debug\net8.0\Engine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NITRO 5\Source\Repos\CC31B-TweetyBored\Engine\obj\Debug\net8.0\Engine.AssemblyInfoInputs.cache
+C:\Users\NITRO 5\Source\Repos\CC31B-TweetyBored\Engine\obj\Debug\net8.0\Engine.AssemblyInfo.cs
+C:\Users\NITRO 5\Source\Repos\CC31B-TweetyBored\Engine\obj\Debug\net8.0\Engine.csproj.CoreCompileInputs.cache
+C:\Users\NITRO 5\Source\Repos\CC31B-TweetyBored\Engine\obj\Debug\net8.0\Engine.sourcelink.json
+C:\Users\NITRO 5\Source\Repos\CC31B-TweetyBored\Engine\obj\Debug\net8.0\Engine.dll
+C:\Users\NITRO 5\Source\Repos\CC31B-TweetyBored\Engine\obj\Debug\net8.0\refint\Engine.dll
+C:\Users\NITRO 5\Source\Repos\CC31B-TweetyBored\Engine\obj\Debug\net8.0\Engine.pdb
+C:\Users\NITRO 5\Source\Repos\CC31B-TweetyBored\Engine\obj\Debug\net8.0\ref\Engine.dll
+C:\Users\m303user\Documents\ja\cc3\tb\Engine\bin\Debug\net8.0\Engine.deps.json
+C:\Users\m303user\Documents\ja\cc3\tb\Engine\bin\Debug\net8.0\Engine.dll
+C:\Users\m303user\Documents\ja\cc3\tb\Engine\bin\Debug\net8.0\Engine.pdb
+C:\Users\m303user\Documents\ja\cc3\tb\Engine\obj\Debug\net8.0\Engine.g.resources
+C:\Users\m303user\Documents\ja\cc3\tb\Engine\obj\Debug\net8.0\Engine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\m303user\Documents\ja\cc3\tb\Engine\obj\Debug\net8.0\Engine.AssemblyInfoInputs.cache
+C:\Users\m303user\Documents\ja\cc3\tb\Engine\obj\Debug\net8.0\Engine.AssemblyInfo.cs
+C:\Users\m303user\Documents\ja\cc3\tb\Engine\obj\Debug\net8.0\Engine.csproj.CoreCompileInputs.cache
+C:\Users\m303user\Documents\ja\cc3\tb\Engine\obj\Debug\net8.0\Engine.sourcelink.json
+C:\Users\m303user\Documents\ja\cc3\tb\Engine\obj\Debug\net8.0\Engine.dll
+C:\Users\m303user\Documents\ja\cc3\tb\Engine\obj\Debug\net8.0\refint\Engine.dll
+C:\Users\m303user\Documents\ja\cc3\tb\Engine\obj\Debug\net8.0\Engine.pdb
+C:\Users\m303user\Documents\ja\cc3\tb\Engine\obj\Debug\net8.0\ref\Engine.dll

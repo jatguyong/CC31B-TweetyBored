@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,11 +7,12 @@ using Engine.Models;
 
 namespace Engine.Factories
 {
-    internal class WorldFactory
+    internal static class WorldFactory
     {
-        internal World CreateWorld()
+        internal static World CreateWorld()
         {
             World newWorld = new World();
+
 
             newWorld.CreateLocation(0, 0,
                 "WOODS",
@@ -35,6 +36,11 @@ namespace Engine.Factories
 
             newWorld.CreateLocation(0, 4,
                 "OASIS",
+                "A place where only the bravest will make the ascent and be rewarded with the ultimate test of their will and spirit ",
+                "pack://application:,,,/Engine;component/Images/Locations/summit.png");
+
+            newWorld.CreateLocation(1, 5,
+                "SUMMIT",
                 "A hidden place where dark arts remain from those who seek the wisdom of the ancients",
                 "pack://application:,,,/Engine;component/Images/Locations/oasis.jpeg");
 

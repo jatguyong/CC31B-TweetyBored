@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "yHRBVvn4UtxzJgDjNlEebjRPYmtPKwoT292DDZuah56Of/teMiI7a6f6hWaBavKFuqFgMdD2YlJIZ0ptmCI79w==",
   "success": true,
   "projectFilePath": "C:\\Users\\princ\\source\\repos\\CC31B-TweetyBored\\Engine\\Engine.csproj",
+=======
+  "dgSpecHash": "UwGNi+CeQT01yuxzpuYZZy9tSj49KU8T2iOaHUPQ6NHy4aTErolZ+cMPsXfZtug8/p++c+ILzPoI+8pOQy5evg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Kris\\source\\repos\\CC31B-TweetyBored\\Engine\\Engine.csproj",
+>>>>>>> 9aac87582e7f4364b0f0d78af36b2847408e8f24
   "expectedPackageFiles": [],
   "logs": []
 }

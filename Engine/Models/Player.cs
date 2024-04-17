@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Globalization;
 using System.Linq;
@@ -17,6 +18,13 @@ namespace Engine.Models
         private int _coin;
         private int _hitPoints;
         private int _experiencePoints;
+
+        public ObservableCollection<GameItem> Inventory { get; set; }
+        // this automatically handles all the notifications
+        public Player()
+        {
+            Inventory = new ObservableCollection<GameItem>();
+        }
 
         // properties
         public string Name {

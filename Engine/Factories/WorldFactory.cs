@@ -37,7 +37,7 @@ namespace Engine.Factories
             newWorld.CreateLocation(0, 4,
                 "OASIS",
                 "A place where only the bravest will make the ascent and be rewarded with the ultimate test of their will and spirit ",
-                "pack://application:,,,/Engine;component/Images/Locations/summit.png");
+                "pack://application:,,,/Engine;component/Images/Locations/summit.jpeg");
 
             newWorld.CreateLocation(1, 5,
                 "SUMMIT",
@@ -47,7 +47,7 @@ namespace Engine.Factories
             newWorld.CreateLocation(-1, 2,
                 "COASTAL",
                 "A bustling coastal area where tourists, residents, and fishermen gather to trade goods and share stories",
-                "pack://application:,,,/Engine;component/Images/Locations/coastal.jpeg");
+                "C:\\Users\\princ\\source\\repos\\CC31B-TweetyBored\\Engine\\Images\\Locations\\coastal.jpeg");
 
             newWorld.CreateLocation(-2, 2,
                 "ABANDONED DUNGEON",

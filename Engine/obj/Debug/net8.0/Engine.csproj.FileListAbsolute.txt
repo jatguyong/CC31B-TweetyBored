@@ -50,3 +50,12 @@ C:\Users\m303user\Documents\ja\cc3\tb\Engine\obj\Debug\net8.0\Engine.dll
 C:\Users\m303user\Documents\ja\cc3\tb\Engine\obj\Debug\net8.0\refint\Engine.dll
 C:\Users\m303user\Documents\ja\cc3\tb\Engine\obj\Debug\net8.0\Engine.pdb
 C:\Users\m303user\Documents\ja\cc3\tb\Engine\obj\Debug\net8.0\ref\Engine.dll
+C:\Users\princ\source\repos\CC31B-TweetyBored\Engine\obj\Debug\net8.0\Engine.g.resources
+C:\Users\princ\source\repos\CC31B-TweetyBored\Engine\obj\Debug\net8.0\Engine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\princ\source\repos\CC31B-TweetyBored\Engine\obj\Debug\net8.0\Engine.AssemblyInfoInputs.cache
+C:\Users\princ\source\repos\CC31B-TweetyBored\Engine\obj\Debug\net8.0\Engine.AssemblyInfo.cs
+C:\Users\princ\source\repos\CC31B-TweetyBored\Engine\obj\Debug\net8.0\Engine.csproj.CoreCompileInputs.cache
+C:\Users\princ\source\repos\CC31B-TweetyBored\Engine\obj\Debug\net8.0\Engine.sourcelink.json
+C:\Users\princ\source\repos\CC31B-TweetyBored\Engine\obj\Debug\net8.0\Engine.dll
+C:\Users\princ\source\repos\CC31B-TweetyBored\Engine\obj\Debug\net8.0\refint\Engine.dll
+C:\Users\princ\source\repos\CC31B-TweetyBored\Engine\obj\Debug\net8.0\Engine.pdb

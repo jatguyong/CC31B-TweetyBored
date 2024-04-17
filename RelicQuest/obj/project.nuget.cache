@@ -1,14 +1,15 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "r63g4RG/8G/RcR1nSuyn4cenb9XbMJdqyI5FcuKvEqkdVnEJgbNmGRRA2ofVNAoNj6uJS5RXAEoOUy9puZh7Ng==",
+  "dgSpecHash": "pk/PquDYDU0/R9dxuKlMqSxvT2T6TEQdodi2sPM08XhPfdgfgIFNmZIg0zQkmHTq/GWql+7EGu8z9kWGg5x3yw==",
   "success": true,
   "projectFilePath": "C:\\Users\\princ\\source\\repos\\CC31B-TweetyBored\\RelicQuest\\RelicQuest.csproj",
-=======
-  "dgSpecHash": "r30Em/Q0/ETjsgn3INxHKSPKG8I/gHHvGQREdmHinmrfXHX3VKkmv9FkNoRtTRHKF7q+bAPTgh2qVP7z4Nj2JQ==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\Kris\\source\\repos\\CC31B-TweetyBored\\RelicQuest\\RelicQuest.csproj",
->>>>>>> 9aac87582e7f4364b0f0d78af36b2847408e8f24
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\princ\\source\\repos\\CC31B-TweetyBored\\RelicQuest\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

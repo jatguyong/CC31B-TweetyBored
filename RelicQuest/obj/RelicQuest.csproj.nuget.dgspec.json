@@ -1,7 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
     "C:\\Users\\princ\\source\\repos\\CC31B-TweetyBored\\RelicQuest\\RelicQuest.csproj": {}
   },
   "projects": {
@@ -13,29 +12,12 @@
         "projectPath": "C:\\Users\\princ\\source\\repos\\CC31B-TweetyBored\\Engine\\Engine.csproj",
         "packagesPath": "C:\\Users\\princ\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\princ\\source\\repos\\CC31B-TweetyBored\\Engine\\obj\\",
-=======
-    "C:\\Users\\Kris\\source\\repos\\CC31B-TweetyBored\\RelicQuest\\RelicQuest.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\Kris\\source\\repos\\CC31B-TweetyBored\\Engine\\Engine.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\Kris\\source\\repos\\CC31B-TweetyBored\\Engine\\Engine.csproj",
-        "projectName": "Engine",
-        "projectPath": "C:\\Users\\Kris\\source\\repos\\CC31B-TweetyBored\\Engine\\Engine.csproj",
-        "packagesPath": "C:\\Users\\Kris\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kris\\Source\\Repos\\CC31B-TweetyBored\\Engine\\obj\\",
->>>>>>> 9aac87582e7f4364b0f0d78af36b2847408e8f24
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-<<<<<<< HEAD
           "C:\\Users\\princ\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-          "C:\\Users\\Kris\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> 9aac87582e7f4364b0f0d78af36b2847408e8f24
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -77,7 +59,6 @@
               "privateAssets": "all"
             }
           },
-<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
@@ -89,31 +70,13 @@
         "projectName": "RelicQuest",
         "projectPath": "C:\\Users\\princ\\source\\repos\\CC31B-TweetyBored\\RelicQuest\\RelicQuest.csproj",
         "packagesPath": "C:\\Users\\princ\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\princ\\Source\\Repos\\CC31B-TweetyBored\\RelicQuest\\obj\\",
-=======
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\Kris\\source\\repos\\CC31B-TweetyBored\\RelicQuest\\RelicQuest.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\Kris\\source\\repos\\CC31B-TweetyBored\\RelicQuest\\RelicQuest.csproj",
-        "projectName": "RelicQuest",
-        "projectPath": "C:\\Users\\Kris\\source\\repos\\CC31B-TweetyBored\\RelicQuest\\RelicQuest.csproj",
-        "packagesPath": "C:\\Users\\Kris\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kris\\Source\\Repos\\CC31B-TweetyBored\\RelicQuest\\obj\\",
->>>>>>> 9aac87582e7f4364b0f0d78af36b2847408e8f24
+        "outputPath": "C:\\Users\\princ\\source\\repos\\CC31B-TweetyBored\\RelicQuest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-<<<<<<< HEAD
           "C:\\Users\\princ\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-          "C:\\Users\\Kris\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> 9aac87582e7f4364b0f0d78af36b2847408e8f24
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -128,13 +91,8 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-<<<<<<< HEAD
               "C:\\Users\\princ\\source\\repos\\CC31B-TweetyBored\\Engine\\Engine.csproj": {
                 "projectPath": "C:\\Users\\princ\\source\\repos\\CC31B-TweetyBored\\Engine\\Engine.csproj"
-=======
-              "C:\\Users\\Kris\\source\\repos\\CC31B-TweetyBored\\Engine\\Engine.csproj": {
-                "projectPath": "C:\\Users\\Kris\\source\\repos\\CC31B-TweetyBored\\Engine\\Engine.csproj"
->>>>>>> 9aac87582e7f4364b0f0d78af36b2847408e8f24
               }
             }
           }
@@ -167,11 +125,7 @@
               "privateAssets": "none"
             }
           },
-<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
-=======
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
->>>>>>> 9aac87582e7f4364b0f0d78af36b2847408e8f24
         }
       }
     }

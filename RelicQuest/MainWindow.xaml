@@ -22,7 +22,8 @@
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="250"/>
         </Grid.ColumnDefinitions>
-
+        
+        <!--Menu-->
         <Label Grid.Row="0" Grid.Column="0" Content="MENU" Background="BurlyWood" Grid.ColumnSpan="3"/>
 
         <!--Player Info-->
@@ -74,6 +75,7 @@
         
         </Grid>
 
+           <!--Inventory and Quests-->
         <Grid Grid.Row="2" Grid.Column="0" Background="#9DBC98">
             <TabControl>
                 <TabItem Header="Inventory">
@@ -164,7 +166,34 @@
             </Grid>
 
 
-            <Label Grid.Row="1" Grid.Column="0" Content="ENEMY INFORMATION" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="#FAEED1"/>
+            <Border Grid.Row="1" Grid.Column="0"
+                    BorderBrush="Gainsboro"
+                    BorderThickness="1">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <TextBlock Grid.Row="0"
+                               HorizontalAlignment="Center"
+                               Height="Auto"
+                               Text="{Binding CurrentMonster.Name}" />
+                    <Image Grid.Row="1"
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Center"
+                           Height="125"
+                           Width="125"
+                           Source="{Binding CurrentMonster.ImageName}" />
+                    <StackPanel Grid.Row="2"
+                                Visibility="{Binding HasMonster, Converter={StaticResource BooleanToVisibility}}"
+                                HorizontalAlignment="Center"
+                                Orientation="Horizontal">
+                        <TextBlock>Current Hit Points:</TextBlock>
+                        <TextBlock Text="{Binding CurrentMonster.HitPoints}" />
+                    </StackPanel>
+                </Grid>
+            </Border>
         </Grid>
 
 

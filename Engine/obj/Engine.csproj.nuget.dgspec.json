@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\NITRO 5\\source\\repos\\CC31B-TweetyBored\\Engine\\Engine.csproj": {}
+    "C:\\Users\\NITRO 5\\Source\\Repos\\CC31B-TweetyBored\\Engine\\Engine.csproj": {}
   },
   "projects": {
-    "C:\\Users\\NITRO 5\\source\\repos\\CC31B-TweetyBored\\Engine\\Engine.csproj": {
+    "C:\\Users\\NITRO 5\\Source\\Repos\\CC31B-TweetyBored\\Engine\\Engine.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\NITRO 5\\source\\repos\\CC31B-TweetyBored\\Engine\\Engine.csproj",
+        "projectUniqueName": "C:\\Users\\NITRO 5\\Source\\Repos\\CC31B-TweetyBored\\Engine\\Engine.csproj",
         "projectName": "Engine",
-        "projectPath": "C:\\Users\\NITRO 5\\source\\repos\\CC31B-TweetyBored\\Engine\\Engine.csproj",
+        "projectPath": "C:\\Users\\NITRO 5\\Source\\Repos\\CC31B-TweetyBored\\Engine\\Engine.csproj",
         "packagesPath": "C:\\Users\\NITRO 5\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\NITRO 5\\source\\repos\\CC31B-TweetyBored\\Engine\\obj\\",
+        "outputPath": "C:\\Users\\NITRO 5\\Source\\Repos\\CC31B-TweetyBored\\Engine\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\NITRO 5\\AppData\\Roaming\\NuGet\\NuGet.Config",

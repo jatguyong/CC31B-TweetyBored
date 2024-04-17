@@ -1,49 +1,49 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\itsje\\OneDrive\\Documents\\CSharp\\RelicQuest\\",
+  "WorkspaceRootPath": "C:\\Users\\Kris\\source\\repos\\CC31B-TweetyBored\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CA81ACC0-2891-4ADA-9B2C-BF9EB6029968}|Engine\\Engine.csproj|c:\\users\\itsje\\onedrive\\documents\\csharp\\relicquest\\engine\\factories\\worldfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA81ACC0-2891-4ADA-9B2C-BF9EB6029968}|Engine\\Engine.csproj|solutionrelative:engine\\factories\\worldfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA81ACC0-2891-4ADA-9B2C-BF9EB6029968}|Engine\\Engine.csproj|c:\\users\\itsje\\onedrive\\documents\\csharp\\relicquest\\engine\\models\\world.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA81ACC0-2891-4ADA-9B2C-BF9EB6029968}|Engine\\Engine.csproj|solutionrelative:engine\\models\\world.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70A6AD7F-E19C-439F-8EBB-C0D8B77149CC}|RelicQuest\\RelicQuest.csproj|c:\\users\\itsje\\onedrive\\documents\\csharp\\relicquest\\relicquest\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{70A6AD7F-E19C-439F-8EBB-C0D8B77149CC}|RelicQuest\\RelicQuest.csproj|c:\\users\\kris\\source\\repos\\cc31b-tweetybored\\relicquest\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{70A6AD7F-E19C-439F-8EBB-C0D8B77149CC}|RelicQuest\\RelicQuest.csproj|solutionrelative:relicquest\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA81ACC0-2891-4ADA-9B2C-BF9EB6029968}|Engine\\Engine.csproj|c:\\users\\itsje\\onedrive\\documents\\csharp\\relicquest\\engine\\viewmodels\\gamesessions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CA81ACC0-2891-4ADA-9B2C-BF9EB6029968}|Engine\\Engine.csproj|c:\\users\\kris\\source\\repos\\cc31b-tweetybored\\engine\\factories\\worldfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA81ACC0-2891-4ADA-9B2C-BF9EB6029968}|Engine\\Engine.csproj|solutionrelative:engine\\factories\\worldfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA81ACC0-2891-4ADA-9B2C-BF9EB6029968}|Engine\\Engine.csproj|c:\\users\\kris\\source\\repos\\cc31b-tweetybored\\engine\\models\\world.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA81ACC0-2891-4ADA-9B2C-BF9EB6029968}|Engine\\Engine.csproj|solutionrelative:engine\\models\\world.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA81ACC0-2891-4ADA-9B2C-BF9EB6029968}|Engine\\Engine.csproj|c:\\users\\kris\\source\\repos\\cc31b-tweetybored\\engine\\viewmodels\\gamesessions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CA81ACC0-2891-4ADA-9B2C-BF9EB6029968}|Engine\\Engine.csproj|solutionrelative:engine\\viewmodels\\gamesessions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA81ACC0-2891-4ADA-9B2C-BF9EB6029968}|Engine\\Engine.csproj|c:\\users\\itsje\\onedrive\\documents\\csharp\\relicquest\\engine\\factories\\questfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CA81ACC0-2891-4ADA-9B2C-BF9EB6029968}|Engine\\Engine.csproj|c:\\users\\kris\\source\\repos\\cc31b-tweetybored\\engine\\factories\\questfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CA81ACC0-2891-4ADA-9B2C-BF9EB6029968}|Engine\\Engine.csproj|solutionrelative:engine\\factories\\questfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA81ACC0-2891-4ADA-9B2C-BF9EB6029968}|Engine\\Engine.csproj|c:\\users\\itsje\\onedrive\\documents\\csharp\\relicquest\\engine\\models\\items\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CA81ACC0-2891-4ADA-9B2C-BF9EB6029968}|Engine\\Engine.csproj|c:\\users\\kris\\source\\repos\\cc31b-tweetybored\\engine\\models\\items\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CA81ACC0-2891-4ADA-9B2C-BF9EB6029968}|Engine\\Engine.csproj|solutionrelative:engine\\models\\items\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA81ACC0-2891-4ADA-9B2C-BF9EB6029968}|Engine\\Engine.csproj|c:\\users\\itsje\\onedrive\\documents\\csharp\\relicquest\\engine\\factories\\itemfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CA81ACC0-2891-4ADA-9B2C-BF9EB6029968}|Engine\\Engine.csproj|c:\\users\\kris\\source\\repos\\cc31b-tweetybored\\engine\\factories\\itemfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CA81ACC0-2891-4ADA-9B2C-BF9EB6029968}|Engine\\Engine.csproj|solutionrelative:engine\\factories\\itemfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA81ACC0-2891-4ADA-9B2C-BF9EB6029968}|Engine\\Engine.csproj|c:\\users\\itsje\\onedrive\\documents\\csharp\\relicquest\\engine\\models\\itemquantity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CA81ACC0-2891-4ADA-9B2C-BF9EB6029968}|Engine\\Engine.csproj|c:\\users\\kris\\source\\repos\\cc31b-tweetybored\\engine\\models\\itemquantity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CA81ACC0-2891-4ADA-9B2C-BF9EB6029968}|Engine\\Engine.csproj|solutionrelative:engine\\models\\itemquantity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA81ACC0-2891-4ADA-9B2C-BF9EB6029968}|Engine\\Engine.csproj|c:\\users\\itsje\\onedrive\\documents\\csharp\\relicquest\\engine\\models\\quest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CA81ACC0-2891-4ADA-9B2C-BF9EB6029968}|Engine\\Engine.csproj|c:\\users\\kris\\source\\repos\\cc31b-tweetybored\\engine\\models\\quest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CA81ACC0-2891-4ADA-9B2C-BF9EB6029968}|Engine\\Engine.csproj|solutionrelative:engine\\models\\quest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CA81ACC0-2891-4ADA-9B2C-BF9EB6029968}|Engine\\Engine.csproj|c:\\users\\itsje\\onedrive\\documents\\csharp\\relicquest\\engine\\models\\items\\fragment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CA81ACC0-2891-4ADA-9B2C-BF9EB6029968}|Engine\\Engine.csproj|c:\\users\\kris\\source\\repos\\cc31b-tweetybored\\engine\\models\\items\\fragment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CA81ACC0-2891-4ADA-9B2C-BF9EB6029968}|Engine\\Engine.csproj|solutionrelative:engine\\models\\items\\fragment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70A6AD7F-E19C-439F-8EBB-C0D8B77149CC}|RelicQuest\\RelicQuest.csproj|c:\\users\\itsje\\onedrive\\documents\\csharp\\relicquest\\relicquest\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{70A6AD7F-E19C-439F-8EBB-C0D8B77149CC}|RelicQuest\\RelicQuest.csproj|c:\\users\\kris\\source\\repos\\cc31b-tweetybored\\relicquest\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{70A6AD7F-E19C-439F-8EBB-C0D8B77149CC}|RelicQuest\\RelicQuest.csproj|solutionrelative:relicquest\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
@@ -54,15 +54,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\itsje\\OneDrive\\Documents\\CSharp\\RelicQuest\\RelicQuest\\MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Kris\\source\\repos\\CC31B-TweetyBored\\RelicQuest\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "RelicQuest\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\itsje\\OneDrive\\Documents\\CSharp\\RelicQuest\\RelicQuest\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Kris\\source\\repos\\CC31B-TweetyBored\\RelicQuest\\MainWindow.xaml.cs",
               "RelativeToolTip": "RelicQuest\\MainWindow.xaml.cs",
               "ViewState": "AQIAABcAAAAAAAAAAAAIwCEAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -71,24 +71,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "World.cs",
-              "DocumentMoniker": "C:\\Users\\itsje\\OneDrive\\Documents\\CSharp\\RelicQuest\\Engine\\Models\\World.cs",
+              "DocumentMoniker": "C:\\Users\\Kris\\source\\repos\\CC31B-TweetyBored\\Engine\\Models\\World.cs",
               "RelativeDocumentMoniker": "Engine\\Models\\World.cs",
-              "ToolTip": "C:\\Users\\itsje\\OneDrive\\Documents\\CSharp\\RelicQuest\\Engine\\Models\\World.cs",
+              "ToolTip": "C:\\Users\\Kris\\source\\repos\\CC31B-TweetyBored\\Engine\\Models\\World.cs",
               "RelativeToolTip": "Engine\\Models\\World.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAxwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T17:31:14.447Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-12T17:31:14.447Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "WorldFactory.cs",
-              "DocumentMoniker": "C:\\Users\\itsje\\OneDrive\\Documents\\CSharp\\RelicQuest\\Engine\\Factories\\WorldFactory.cs",
+              "DocumentMoniker": "C:\\Users\\Kris\\source\\repos\\CC31B-TweetyBored\\Engine\\Factories\\WorldFactory.cs",
               "RelativeDocumentMoniker": "Engine\\Factories\\WorldFactory.cs",
-              "ToolTip": "C:\\Users\\itsje\\OneDrive\\Documents\\CSharp\\RelicQuest\\Engine\\Factories\\WorldFactory.cs",
+              "ToolTip": "C:\\Users\\Kris\\source\\repos\\CC31B-TweetyBored\\Engine\\Factories\\WorldFactory.cs",
               "RelativeToolTip": "Engine\\Factories\\WorldFactory.cs",
               "ViewState": "AQIAABkAAAAAAAAAAAAQwCkAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -99,104 +98,100 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "Weapon.cs",
-              "DocumentMoniker": "C:\\Users\\itsje\\OneDrive\\Documents\\CSharp\\RelicQuest\\Engine\\Models\\Items\\Weapon.cs",
+              "DocumentMoniker": "C:\\Users\\Kris\\source\\repos\\CC31B-TweetyBored\\Engine\\Models\\Items\\Weapon.cs",
               "RelativeDocumentMoniker": "Engine\\Models\\Items\\Weapon.cs",
-              "ToolTip": "C:\\Users\\itsje\\OneDrive\\Documents\\CSharp\\RelicQuest\\Engine\\Models\\Items\\Weapon.cs",
+              "ToolTip": "C:\\Users\\Kris\\source\\repos\\CC31B-TweetyBored\\Engine\\Models\\Items\\Weapon.cs",
               "RelativeToolTip": "Engine\\Models\\Items\\Weapon.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T17:14:30.442Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-12T17:14:30.442Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "QuestFactory.cs",
-              "DocumentMoniker": "C:\\Users\\itsje\\OneDrive\\Documents\\CSharp\\RelicQuest\\Engine\\Factories\\QuestFactory.cs",
+              "DocumentMoniker": "C:\\Users\\Kris\\source\\repos\\CC31B-TweetyBored\\Engine\\Factories\\QuestFactory.cs",
               "RelativeDocumentMoniker": "Engine\\Factories\\QuestFactory.cs",
-              "ToolTip": "C:\\Users\\itsje\\OneDrive\\Documents\\CSharp\\RelicQuest\\Engine\\Factories\\QuestFactory.cs",
+              "ToolTip": "C:\\Users\\Kris\\source\\repos\\CC31B-TweetyBored\\Engine\\Factories\\QuestFactory.cs",
               "RelativeToolTip": "Engine\\Factories\\QuestFactory.cs",
               "ViewState": "AQIAABAAAAAAAAAAAAAQwB0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T17:08:12.41Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-12T17:08:12.41Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "ItemQuantity.cs",
-              "DocumentMoniker": "C:\\Users\\itsje\\OneDrive\\Documents\\CSharp\\RelicQuest\\Engine\\Models\\ItemQuantity.cs",
+              "DocumentMoniker": "C:\\Users\\Kris\\source\\repos\\CC31B-TweetyBored\\Engine\\Models\\ItemQuantity.cs",
               "RelativeDocumentMoniker": "Engine\\Models\\ItemQuantity.cs",
-              "ToolTip": "C:\\Users\\itsje\\OneDrive\\Documents\\CSharp\\RelicQuest\\Engine\\Models\\ItemQuantity.cs",
+              "ToolTip": "C:\\Users\\Kris\\source\\repos\\CC31B-TweetyBored\\Engine\\Models\\ItemQuantity.cs",
               "RelativeToolTip": "Engine\\Models\\ItemQuantity.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwA0AAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T17:01:35.992Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-12T17:01:35.992Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "Quest.cs",
-              "DocumentMoniker": "C:\\Users\\itsje\\OneDrive\\Documents\\CSharp\\RelicQuest\\Engine\\Models\\Quest.cs",
+              "DocumentMoniker": "C:\\Users\\Kris\\source\\repos\\CC31B-TweetyBored\\Engine\\Models\\Quest.cs",
               "RelativeDocumentMoniker": "Engine\\Models\\Quest.cs",
-              "ToolTip": "C:\\Users\\itsje\\OneDrive\\Documents\\CSharp\\RelicQuest\\Engine\\Models\\Quest.cs",
+              "ToolTip": "C:\\Users\\Kris\\source\\repos\\CC31B-TweetyBored\\Engine\\Models\\Quest.cs",
               "RelativeToolTip": "Engine\\Models\\Quest.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T16:45:48.25Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-12T16:45:48.25Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "ItemFactory.cs",
-              "DocumentMoniker": "C:\\Users\\itsje\\OneDrive\\Documents\\CSharp\\RelicQuest\\Engine\\Factories\\ItemFactory.cs",
+              "DocumentMoniker": "C:\\Users\\Kris\\source\\repos\\CC31B-TweetyBored\\Engine\\Factories\\ItemFactory.cs",
               "RelativeDocumentMoniker": "Engine\\Factories\\ItemFactory.cs",
-              "ToolTip": "C:\\Users\\itsje\\OneDrive\\Documents\\CSharp\\RelicQuest\\Engine\\Factories\\ItemFactory.cs",
+              "ToolTip": "C:\\Users\\Kris\\source\\repos\\CC31B-TweetyBored\\Engine\\Factories\\ItemFactory.cs",
               "RelativeToolTip": "Engine\\Factories\\ItemFactory.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAMwCMAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-21T15:16:14.358Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-21T15:16:14.358Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "GameSessions.cs",
-              "DocumentMoniker": "C:\\Users\\itsje\\OneDrive\\Documents\\CSharp\\RelicQuest\\Engine\\ViewModels\\GameSessions.cs",
+              "DocumentMoniker": "C:\\Users\\Kris\\source\\repos\\CC31B-TweetyBored\\Engine\\ViewModels\\GameSessions.cs",
               "RelativeDocumentMoniker": "Engine\\ViewModels\\GameSessions.cs",
-              "ToolTip": "C:\\Users\\itsje\\OneDrive\\Documents\\CSharp\\RelicQuest\\Engine\\ViewModels\\GameSessions.cs",
+              "ToolTip": "C:\\Users\\Kris\\source\\repos\\CC31B-TweetyBored\\Engine\\ViewModels\\GameSessions.cs",
               "RelativeToolTip": "Engine\\ViewModels\\GameSessions.cs",
               "ViewState": "AQIAAE0AAAAAAAAAAIAwwFwAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T15:47:46.244Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-11T15:47:46.244Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "Fragment.cs",
-              "DocumentMoniker": "C:\\Users\\itsje\\OneDrive\\Documents\\CSharp\\RelicQuest\\Engine\\Models\\Items\\Fragment.cs",
+              "DocumentMoniker": "C:\\Users\\Kris\\source\\repos\\CC31B-TweetyBored\\Engine\\Models\\Items\\Fragment.cs",
               "RelativeDocumentMoniker": "Engine\\Models\\Items\\Fragment.cs",
-              "ToolTip": "C:\\Users\\itsje\\OneDrive\\Documents\\CSharp\\RelicQuest\\Engine\\Models\\Items\\Fragment.cs",
+              "ToolTip": "C:\\Users\\Kris\\source\\repos\\CC31B-TweetyBored\\Engine\\Models\\Items\\Fragment.cs",
               "RelativeToolTip": "Engine\\Models\\Items\\Fragment.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T17:14:37.259Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-12T17:14:37.259Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\itsje\\OneDrive\\Documents\\CSharp\\RelicQuest\\RelicQuest\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Kris\\source\\repos\\CC31B-TweetyBored\\RelicQuest\\MainWindow.xaml",
               "RelativeDocumentMoniker": "RelicQuest\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\itsje\\OneDrive\\Documents\\CSharp\\RelicQuest\\RelicQuest\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Kris\\source\\repos\\CC31B-TweetyBored\\RelicQuest\\MainWindow.xaml",
               "RelativeToolTip": "RelicQuest\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-11T15:51:22.605Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-11T15:51:22.605Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

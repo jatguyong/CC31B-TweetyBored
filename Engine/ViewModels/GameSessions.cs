@@ -151,6 +151,7 @@ namespace Engine.ViewModels
                 RaiseMessage("You must select a weapon, to attack.");
                 return;
             }
+            // Determine damage to monster
             int damageToMonster = RandomNumberGenerator.NumberBetween(CurrentWeapon.MinimumDamage, CurrentWeapon.MaximumDamage);
             if (damageToMonster == 0)
             {

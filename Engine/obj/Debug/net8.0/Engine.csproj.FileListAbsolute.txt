@@ -63,3 +63,16 @@ C:\Users\princ\source\repos\CC31B-TweetyBored\Engine\bin\Debug\net8.0\Engine.dep
 C:\Users\princ\source\repos\CC31B-TweetyBored\Engine\bin\Debug\net8.0\Engine.dll
 C:\Users\princ\source\repos\CC31B-TweetyBored\Engine\bin\Debug\net8.0\Engine.pdb
 C:\Users\princ\source\repos\CC31B-TweetyBored\Engine\obj\Debug\net8.0\ref\Engine.dll
+C:\Users\itsje\OneDrive\Documents\CSharp\TweetyBored\Engine\bin\Debug\net8.0\Engine.deps.json
+C:\Users\itsje\OneDrive\Documents\CSharp\TweetyBored\Engine\bin\Debug\net8.0\Engine.dll
+C:\Users\itsje\OneDrive\Documents\CSharp\TweetyBored\Engine\bin\Debug\net8.0\Engine.pdb
+C:\Users\itsje\OneDrive\Documents\CSharp\TweetyBored\Engine\obj\Debug\net8.0\Engine.g.resources
+C:\Users\itsje\OneDrive\Documents\CSharp\TweetyBored\Engine\obj\Debug\net8.0\Engine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\itsje\OneDrive\Documents\CSharp\TweetyBored\Engine\obj\Debug\net8.0\Engine.AssemblyInfoInputs.cache
+C:\Users\itsje\OneDrive\Documents\CSharp\TweetyBored\Engine\obj\Debug\net8.0\Engine.AssemblyInfo.cs
+C:\Users\itsje\OneDrive\Documents\CSharp\TweetyBored\Engine\obj\Debug\net8.0\Engine.csproj.CoreCompileInputs.cache
+C:\Users\itsje\OneDrive\Documents\CSharp\TweetyBored\Engine\obj\Debug\net8.0\Engine.sourcelink.json
+C:\Users\itsje\OneDrive\Documents\CSharp\TweetyBored\Engine\obj\Debug\net8.0\Engine.dll
+C:\Users\itsje\OneDrive\Documents\CSharp\TweetyBored\Engine\obj\Debug\net8.0\refint\Engine.dll
+C:\Users\itsje\OneDrive\Documents\CSharp\TweetyBored\Engine\obj\Debug\net8.0\Engine.pdb
+C:\Users\itsje\OneDrive\Documents\CSharp\TweetyBored\Engine\obj\Debug\net8.0\ref\Engine.dll

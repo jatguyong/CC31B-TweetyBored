@@ -3,14 +3,14 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:RelicQuest" xmlns:viewmodels="clr-namespace:Engine.ViewModels;assembly=Engine" d:DataContext="{d:DesignInstance Type=viewmodels:GameSession}"
+        xmlns:local="clr-namespace:RelicQuest" xmlns:viewmodels="clr-namespace:Engine.ViewModels;assembly=Engine"
         mc:Ignorable="d"
         Title="Relic Quest: Secrets Unveiled" Height="768" Width="1024">
 
     <Window.Resources>
         <BooleanToVisibilityConverter x:Key="BooleanToVisibility"/>
     </Window.Resources>
-    
+
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
@@ -70,7 +70,7 @@
 
             <Label Grid.Row="0" Grid.Column="0" Content="PLAYER PROFILE" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="Cornsilk"/>
             <Label Grid.Row="1" Grid.Column="0" VerticalContentAlignment="Center" Background="#FAEED1"/>
-            
+
             <!--Player Stats-->
             <Grid Grid.Row="1" Grid.Column="0">
                 <Grid.RowDefinitions>
@@ -107,7 +107,7 @@
                 <Label Grid.Row="5" Grid.Column="1" Content="{Binding CurrentPlayer.HitPoints}"/>
                 <Label Grid.Row="6" Grid.Column="1" Content="{Binding CurrentPlayer.ExperiencePoints}"/>
             </Grid>
-        
+
         </Grid>
 
         <!--Inventory and Quests-->
@@ -148,7 +148,7 @@
         </Grid>
 
         <!-- Game Messages -->
-        <Border Grid.Row="0" Grid.Column="0"
+        <Border Grid.Row="1" Grid.Column="1"
                     Grid.RowSpan="2"
                     BorderBrush="Gainsboro"
                     BorderThickness="1">
@@ -180,7 +180,7 @@
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
-            
+
             <!--Location Information-->
             <Grid Grid.Row="0" Grid.Column="0" Background="#FAEED1">
                 <Grid.RowDefinitions>
@@ -188,7 +188,7 @@
                     <RowDefinition Height="*"/>
                     <RowDefinition Height="Auto"/>
                 </Grid.RowDefinitions>
-    
+
                 <Border Margin="7" Grid.Row="0" BorderThickness="1" BorderBrush="DarkSlateGray" CornerRadius="3">
                     <TextBlock HorizontalAlignment="Center" Text="{Binding CurrentLocation.Name}"/>
                 </Border>
@@ -273,6 +273,6 @@
                     Visibility="{Binding HasLocationToSouth, Converter={StaticResource BooleanToVisibility}}"/>
 
         </Grid>
-        
+
     </Grid>
 </Window>

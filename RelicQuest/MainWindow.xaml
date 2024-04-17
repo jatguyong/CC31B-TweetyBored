@@ -12,6 +12,10 @@
     </Window.Resources>
 
     <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="pack://application:,,,/Engine;component/Images/background.png" Stretch="UniformToFill"/>
+        </Grid.Background>
+
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
@@ -24,8 +28,7 @@
         </Grid.ColumnDefinitions>
 
         <!-- Action controls -->
-        <Grid Grid.Row="2" Grid.Column="1"
-              Background="Lavender">
+        <Grid Grid.Row="2" Grid.Column="1">
             <Grid.RowDefinitions>
                 <RowDefinition Height="*" />
             </Grid.RowDefinitions>
@@ -59,7 +62,7 @@
         </Grid>
 
         <!--Menu-->
-        <Label Grid.Row="0" Grid.Column="0" Content="MENU" Background="BurlyWood" Grid.ColumnSpan="3"/>
+        <Label Grid.Row="0" Grid.Column="0" Content="MENU" Grid.ColumnSpan="3" Background="BurlyWood"/>
 
         <!--Player Info-->
         <Grid Grid.Row="1" Grid.Column="0">
@@ -68,11 +71,29 @@
                 <RowDefinition Height="Auto"/>
             </Grid.RowDefinitions>
 
-            <Label Grid.Row="0" Grid.Column="0" Content="PLAYER PROFILE" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="Cornsilk"/>
-            <Label Grid.Row="1" Grid.Column="0" VerticalContentAlignment="Center" Background="#FAEED1"/>
+            <Grid Grid.Row="0" Grid.Column="0">
+                <Border BorderBrush="FloralWhite" BorderThickness="0,0,0,1">
+                    <Image Source="pack://application:,,,/Engine;component/Images/player_image.png"  
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Center"
+                           Height="250"
+                           Width="250">
+                        <Image.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform AngleY="0.678"/>
+                                <RotateTransform/>
+                                <TranslateTransform Y="1.788"/>
+                            </TransformGroup>
+                        </Image.RenderTransform>
+                    </Image>
+                </Border>
+                <Label VerticalContentAlignment="Bottom" HorizontalAlignment="Center" Content="SOULWEAVER" Foreground="White"/>
+            </Grid>
+            <Label Grid.Row="1" Grid.Column="0" HorizontalContentAlignment="Stretch" Foreground="White"/>
 
             <!--Player Stats-->
-            <Grid Grid.Row="1" Grid.Column="0">
+            <Grid Grid.Row="1" Grid.Column="0" Background="#A6AAAAAA">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto"/>
                     <RowDefinition Height="Auto"/>
@@ -89,29 +110,29 @@
                 </Grid.ColumnDefinitions>
 
                 <Border Grid.Row="0" BorderBrush="DarkSlateBlue" BorderThickness="0,0,0,1">
-                    <Label Content="PLAYER STATUS"/>
+                    <Label Content="PLAYER STATUS" Background="#CCD2D69A"/>
                 </Border>
 
-                <Border Grid.Row="0" Grid.Column="1" BorderBrush="DarkSlateBlue" BorderThickness="0,0,0,1"/>
+                <Border Grid.Row="0" Grid.Column="1" BorderBrush="DarkSlateBlue" BorderThickness="0,0,0,1" Background="#CCD2D69A"/>
 
-                <Label Grid.Row="1" Grid.Column="0" Content="Name :"/>
-                <Label Grid.Row="2" Grid.Column="0" Content="Class :"/>
-                <Label Grid.Row="3" Grid.Column="0" Content="Level :"/>
-                <Label Grid.Row="4" Grid.Column="0" Content="Coins :"/>
-                <Label Grid.Row="5" Grid.Column="0" Content="Hit Points :"/>
-                <Label Grid.Row="6" Grid.Column="0" Content="XP :"/>
-                <Label Grid.Row="1" Grid.Column="1" Content="{Binding CurrentPlayer.Name}"/>
-                <Label Grid.Row="2" Grid.Column="1" Content="{Binding CurrentPlayer.CharacterClass}"/>
-                <Label Grid.Row="3" Grid.Column="1" Content="{Binding CurrentPlayer.Level}"/>
-                <Label Grid.Row="4" Grid.Column="1" Content="{Binding CurrentPlayer.Coin}"/>
-                <Label Grid.Row="5" Grid.Column="1" Content="{Binding CurrentPlayer.HitPoints}"/>
-                <Label Grid.Row="6" Grid.Column="1" Content="{Binding CurrentPlayer.ExperiencePoints}"/>
+                <Label Grid.Row="1" Grid.Column="0" Content="Name :" Foreground="White"/>
+                <Label Grid.Row="2" Grid.Column="0" Content="Class :" Foreground="White"/>
+                <Label Grid.Row="3" Grid.Column="0" Content="Level :" Foreground="White"/>
+                <Label Grid.Row="4" Grid.Column="0" Content="Coins :" Foreground="White"/>
+                <Label Grid.Row="5" Grid.Column="0" Content="Hit Points :" Foreground="White"/>
+                <Label Grid.Row="6" Grid.Column="0" Content="XP :" Foreground="White"/>
+                <Label Grid.Row="1" Grid.Column="1" Content="{Binding CurrentPlayer.Name}" Foreground="White"/>
+                <Label Grid.Row="2" Grid.Column="1" Content="{Binding CurrentPlayer.CharacterClass}" Foreground="White"/>
+                <Label Grid.Row="3" Grid.Column="1" Content="{Binding CurrentPlayer.Level}" Foreground="White"/>
+                <Label Grid.Row="4" Grid.Column="1" Content="{Binding CurrentPlayer.Coin}" Foreground="White"/>
+                <Label Grid.Row="5" Grid.Column="1" Content="{Binding CurrentPlayer.HitPoints}" Foreground="White"/>
+                <Label Grid.Row="6" Grid.Column="1" Content="{Binding CurrentPlayer.ExperiencePoints}" Foreground="White"/>
             </Grid>
 
         </Grid>
 
         <!--Inventory and Quests-->
-        <Grid Grid.Row="2" Grid.Column="0" Background="#9DBC98">
+        <Grid Grid.Row="2" Grid.Column="0" Background="#DDC79B">
             <TabControl>
                 <TabItem Header="Inventory">
                     <DataGrid ItemsSource="{Binding CurrentPlayer.Inventory}" AutoGenerateColumns="False" HeadersVisibility="Column">
@@ -149,12 +170,12 @@
 
         <!-- Game Messages -->
         <Border Grid.Row="1" Grid.Column="1"
-                    Grid.RowSpan="2"
-                    BorderBrush="Gainsboro"
-                    BorderThickness="1">
+            Grid.RowSpan="2"
+            BorderBrush="Gainsboro"
+            BorderThickness="1">
             <RichTextBox x:Name="GameMessages"
-                             Background="Beige"
-                             VerticalScrollBarVisibility="Auto">
+                     Background="#00FFFFFF" Foreground="White"
+                     VerticalScrollBarVisibility="Auto" HorizontalAlignment="Right">
                 <RichTextBox.Resources>
                     <Style TargetType="{x:Type Paragraph}">
                         <Setter Property="Margin" Value="0"/>
@@ -169,9 +190,6 @@
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
-
-            <Label Grid.Row="2" Grid.Column="0" Content="ITEM" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="#EBD9B4"/>
-            <Label Grid.Row="2" Grid.Column="1" Content="ITEM BUTTONS" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="#EBD9B4"/>
         </Grid>
 
         <!--Location and Enemy Info-->
@@ -182,7 +200,7 @@
             </Grid.RowDefinitions>
 
             <!--Location Information-->
-            <Grid Grid.Row="0" Grid.Column="0" Background="#FAEED1">
+            <Grid Grid.Row="0" Grid.Column="0" Background="#A6DDC79B">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto"/>
                     <RowDefinition Height="*"/>
@@ -190,7 +208,7 @@
                 </Grid.RowDefinitions>
 
                 <Border Margin="7" Grid.Row="0" BorderThickness="1" BorderBrush="DarkSlateGray" CornerRadius="3">
-                    <TextBlock HorizontalAlignment="Center" Text="{Binding CurrentLocation.Name}"/>
+                    <TextBlock HorizontalAlignment="Center" Text="{Binding CurrentLocation.Name}" Foreground="White"/>
                 </Border>
 
                 <Image Grid.Row="1"
@@ -203,14 +221,14 @@
                            TextWrapping="Wrap"
                            TextAlignment="Center"
                            Margin="3"
-                           Text="{Binding CurrentLocation.Description}"/>
+                           Text="{Binding CurrentLocation.Description}" Foreground="White"/>
             </Grid>
 
             <!-- Monster information -->
             <Border Grid.Row="1" Grid.Column="1"
                     BorderBrush="Gainsboro"
                     BorderThickness="1">
-                <Grid>
+                <Grid Background="#A6AAAAAA">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="Auto" />
                         <RowDefinition Height="*" />
@@ -219,7 +237,7 @@
                     <TextBlock Grid.Row="0"
                                HorizontalAlignment="Center"
                                Height="Auto"
-                               Text="{Binding CurrentMonster.Name}" />
+                               Text="{Binding CurrentMonster.Name}" Foreground="White"/>
                     <Image Grid.Row="1"
                            HorizontalAlignment="Center"
                            VerticalAlignment="Center"
@@ -230,15 +248,15 @@
                                 Visibility="{Binding HasMonster, Converter={StaticResource BooleanToVisibility}}"
                                 HorizontalAlignment="Center"
                                 Orientation="Horizontal">
-                        <TextBlock>Current Hit Points:</TextBlock>
-                        <TextBlock Text="{Binding CurrentMonster.HitPoints}" />
+                        <TextBlock Foreground="White">Current Hit Points:</TextBlock>
+                        <TextBlock Text="{Binding CurrentMonster.HitPoints}" Foreground="White"/>
                     </StackPanel>
                 </Grid>
             </Border>
         </Grid>
 
 
-        <Grid Grid.Row="2" Grid.Column="2" Background="#9DBC98">
+        <Grid Grid.Row="2" Grid.Column="2" Background="#A6DDC79B">
             <Grid.RowDefinitions>
                 <RowDefinition Height="*"/>
                 <RowDefinition Height="*"/>

@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Images\background.png" />
     <None Remove="Images\Enemies\ghoul.png" />
     <None Remove="Images\Enemies\goblin.png" />
     <None Remove="Images\Enemies\phantom.png" />
@@ -23,11 +24,13 @@
     <None Remove="Images\Locations\summit.jpeg" />
     <None Remove="Images\Locations\wasteland.jpeg" />
     <None Remove="Images\Locations\woods.jpeg" />
+    <None Remove="Images\player_image.png" />
     <None Remove="Images\Weapons\inferno_blade.png" />
     <None Remove="Images\Weapons\shadowstrike_scythe.png" />
   </ItemGroup>
 
   <ItemGroup>
+	  <Resource Include="Images\background.png" />
 	  <Resource Include="Images\Enemies\ghoul.png" />
 	  <Resource Include="Images\Enemies\goblin.png" />
 	  <Resource Include="Images\Enemies\phantom.png" />
@@ -44,6 +47,7 @@
 	  <Resource Include="Images\Locations\summit.jpeg" />
 	  <Resource Include="Images\Locations\wasteland.jpeg" />
 	  <Resource Include="Images\Locations\woods.jpeg" />
+	  <Resource Include="Images\player_image.png" />
 	  <Resource Include="Images\Weapons\inferno_blade.png" />
 	  <Resource Include="Images\Weapons\shadowstrike_scythe.png" />
   </ItemGroup>

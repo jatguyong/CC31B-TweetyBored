@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\NITRO 5\\Source\\Repos\\CC31B-TweetyBored\\Engine\\Engine.csproj": {}
+    "C:\\Users\\itsje\\OneDrive\\Documents\\CSharp\\TB\\Engine\\Engine.csproj": {}
   },
   "projects": {
-    "C:\\Users\\NITRO 5\\Source\\Repos\\CC31B-TweetyBored\\Engine\\Engine.csproj": {
+    "C:\\Users\\itsje\\OneDrive\\Documents\\CSharp\\TB\\Engine\\Engine.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\NITRO 5\\Source\\Repos\\CC31B-TweetyBored\\Engine\\Engine.csproj",
+        "projectUniqueName": "C:\\Users\\itsje\\OneDrive\\Documents\\CSharp\\TB\\Engine\\Engine.csproj",
         "projectName": "Engine",
-        "projectPath": "C:\\Users\\NITRO 5\\Source\\Repos\\CC31B-TweetyBored\\Engine\\Engine.csproj",
-        "packagesPath": "C:\\Users\\NITRO 5\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\NITRO 5\\Source\\Repos\\CC31B-TweetyBored\\Engine\\obj\\",
+        "projectPath": "C:\\Users\\itsje\\OneDrive\\Documents\\CSharp\\TB\\Engine\\Engine.csproj",
+        "packagesPath": "C:\\Users\\itsje\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\itsje\\OneDrive\\Documents\\CSharp\\TB\\Engine\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\NITRO 5\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\itsje\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -60,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

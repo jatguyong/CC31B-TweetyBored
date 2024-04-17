@@ -27,7 +27,7 @@ namespace Engine.Models
            Inventory.Where(i => i is Weapon).ToList();
         public ObservableCollection<QuestStatus> Quests { get; set; }
 
-  
+
         public Player()
         {
             Inventory = new ObservableCollection<GameItem>();

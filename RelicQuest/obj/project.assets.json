@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\NITRO 5\\source\\Repos\\CC31B-TweetyBored\\RelicQuest\\RelicQuest.csproj",
+      "projectUniqueName": "C:\\Users\\NITRO 5\\source\\repos\\CC31B-TweetyBored\\RelicQuest\\RelicQuest.csproj",
       "projectName": "RelicQuest",
-      "projectPath": "C:\\Users\\NITRO 5\\source\\Repos\\CC31B-TweetyBored\\RelicQuest\\RelicQuest.csproj",
+      "projectPath": "C:\\Users\\NITRO 5\\source\\repos\\CC31B-TweetyBored\\RelicQuest\\RelicQuest.csproj",
       "packagesPath": "C:\\Users\\NITRO 5\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\NITRO 5\\source\\Repos\\CC31B-TweetyBored\\RelicQuest\\obj\\",
+      "outputPath": "C:\\Users\\NITRO 5\\source\\repos\\CC31B-TweetyBored\\RelicQuest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\NITRO 5\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -53,8 +53,8 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\NITRO 5\\source\\Repos\\CC31B-TweetyBored\\Engine\\Engine.csproj": {
-              "projectPath": "C:\\Users\\NITRO 5\\source\\Repos\\CC31B-TweetyBored\\Engine\\Engine.csproj"
+            "C:\\Users\\NITRO 5\\source\\repos\\CC31B-TweetyBored\\Engine\\Engine.csproj": {
+              "projectPath": "C:\\Users\\NITRO 5\\source\\repos\\CC31B-TweetyBored\\Engine\\Engine.csproj"
             }
           }
         }

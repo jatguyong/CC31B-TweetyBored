@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RelicQuest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ac5002858420a2ecc164310996d4124a8208a816")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e2aaae2973e0f3854ff91284f59004214bda7495")]
 [assembly: System.Reflection.AssemblyProductAttribute("RelicQuest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RelicQuest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

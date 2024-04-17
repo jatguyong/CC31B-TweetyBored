@@ -24,6 +24,7 @@ namespace Engine.Factories
                 "A place of serenity and otherworldly paradise, where the boundaries between life and death are blurred",
                 "pack://application:,,,/Engine;component/Images/Locations/grove.jpeg");
             newWorld.LocationAt(0, 1).QuestsAvailableHere.Add(QuestFactory.GetQuestByID(4));
+            newWorld.LocationAt(0, 1).AddMonster(1, 100);
 
             newWorld.CreateLocation(0, 2,
                 "HACIENDA",
@@ -41,12 +42,14 @@ namespace Engine.Factories
                 "A place where only the bravest will make the ascent and be rewarded with the ultimate test of their will and spirit ",
                 "pack://application:,,,/Engine;component/Images/Locations/summit.jpeg");
             newWorld.LocationAt(0, 4).QuestsAvailableHere.Add(QuestFactory.GetQuestByID(1));
+            newWorld.LocationAt(0, 4).AddMonster(2, 100);
 
             newWorld.CreateLocation(1, 5,
                 "SUMMIT",
                 "A hidden place where dark arts remain from those who seek the wisdom of the ancients",
                 "pack://application:,,,/Engine;component/Images/Locations/oasis.jpeg");
             newWorld.LocationAt(1, 5).QuestsAvailableHere.Add(QuestFactory.GetQuestByID(6));
+            newWorld.LocationAt(1, 5).AddMonster(3, 100);
 
             newWorld.CreateLocation(-1, 2,
                 "COASTAL",
@@ -58,6 +61,7 @@ namespace Engine.Factories
                 "A place of untold horrors and unspeakable terrors, where only the bravest dare to venture",
                 "pack://application:,,,/Engine;component/Images/Locations/dungeon.jpeg");
             newWorld.LocationAt(-2, 2).QuestsAvailableHere.Add(QuestFactory.GetQuestByID(5));
+            newWorld.LocationAt(-2, 2).AddMonster(4, 100);
 
             newWorld.CreateLocation(1, 2,
                 "PLATEAU",
@@ -69,13 +73,12 @@ namespace Engine.Factories
                 "A barren and desolate land, where the only sign of life is the wandering of the fiercest who conquers its brutal terrain\r\n",
                 "pack://application:,,,/Engine;component/Images/Locations/wasteland.jpeg");
             newWorld.LocationAt(2, 2).QuestsAvailableHere.Add(QuestFactory.GetQuestByID(2));
+            newWorld.LocationAt(2, 2).AddMonster(5, 100);
 
             newWorld.CreateLocation(1, 3,
                 "HARBOR",
                 "A place of sailors and merchants, where one can trade wheat for food",
                 "pack://application:,,,/Engine;component/Images/Locations/harbor.jpeg");
-
-          
 
             return newWorld;
         }

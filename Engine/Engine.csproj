@@ -23,7 +23,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="Images\Locations\coastal.jpeg" />
+    <Resource Include="Images\Locations\coastal.jpeg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
     <Resource Include="Images\Locations\dungeon.jpeg" />
     <Resource Include="Images\Locations\grove.jpeg" />
     <Resource Include="Images\Locations\hacienda.jpeg" />

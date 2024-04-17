@@ -19,7 +19,7 @@ namespace Engine.ViewModels
         {
             CurrentPlayer = new Player
             {
-                Name = "User",
+                Name = "Junior",
                 CharacterClass = "Soulweaver",
                 Level = 1,
                 Coin = 0,
@@ -44,15 +44,12 @@ namespace Engine.ViewModels
                 _currentLocation = value;
                 OnPropertyChanged(nameof(CurrentLocation));
                 // refresh the value for these ff boolean properties every time location changes:
-<<<<<<< HEAD
                 OnPropertyChanged(nameof(HasLocationToNorth)); 
-=======
                 OnPropertyChanged(nameof(HasLocationToNorth));
->>>>>>> 9aac87582e7f4364b0f0d78af36b2847408e8f24
                 OnPropertyChanged(nameof(HasLocationToEast));
                 OnPropertyChanged(nameof(HasLocationToWest));
                 OnPropertyChanged(nameof(HasLocationToSouth));
-
+                GivePlayerQuestsAtLocation();
             }
         }
         
@@ -123,6 +120,16 @@ namespace Engine.ViewModels
             if (HasLocationToSouth)
             {
                 CurrentLocation = CurrentWorld.LocationAt(CurrentLocation.XCoordinate, CurrentLocation.YCoordinate - 1); // move down
+            }
+        }
+        private void GivePlayerQuestsAtLocation()
+        {
+            foreach (Quest quest in CurrentLocation.QuestsAvailableHere)
+            {
+                if (!CurrentPlayer.Quests.Any(q => q.PlayerQuest.ID == quest.ID))
+                {
+                    CurrentPlayer.Quests.Add(new QuestStatus(quest));
+                }
             }
         }
     }

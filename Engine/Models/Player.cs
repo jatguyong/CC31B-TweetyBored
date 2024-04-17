@@ -27,7 +27,7 @@ namespace Engine.Models
             set
             {
                 _name = value;
-                OnPropertyChanged("Name");
+                OnPropertyChanged(nameof(Name));
                 // call this method whenever a property is changed
             }
         }
@@ -40,7 +40,7 @@ namespace Engine.Models
             set
             {
                 _characterClass = value;
-                OnPropertyChanged("CharacterClass");
+                OnPropertyChanged(nameof(CharacterClass));
             }
         }
         public int Level
@@ -52,7 +52,7 @@ namespace Engine.Models
             set
             {
                 _level  = value;
-                OnPropertyChanged("Level");
+                OnPropertyChanged(nameof(Level));
             }
         }
         public int Coin {
@@ -64,7 +64,7 @@ namespace Engine.Models
             {
                 _coin = value;
                 // set the value of _coin to whatever value is passed
-                OnPropertyChanged("Coin");
+                OnPropertyChanged(nameof(Coin));
                 // this notifies that the Coin value has changed and refreshes the value of Coin in the UI
             }
         }
@@ -77,7 +77,7 @@ namespace Engine.Models
             set
             {
                 _hitPoints  = value;
-                OnPropertyChanged("HitPoints");
+                OnPropertyChanged(nameof(HitPoints));
             }
         }
         public int ExperiencePoints
@@ -89,7 +89,7 @@ namespace Engine.Models
             set
             {
                 _experiencePoints = value;
-                OnPropertyChanged("ExperiencePoints");
+                OnPropertyChanged(nameof(ExperiencePoints));
             }
         }
     }

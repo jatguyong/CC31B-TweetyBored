@@ -114,9 +114,7 @@ namespace Engine.ViewModels
         {
             foreach (Quest quest in CurrentLocation.QuestsAvailableHere)
             {
-                QuestStatus questToComplete =
-                    CurrentPlayer.Quests.FirstOrDefault(q => q.PlayerQuest.ID == quest.ID &&
-                                                             !q.IsCompleted);
+                QuestStatus questToComplete = CurrentPlayer.Quests.FirstOrDefault(q => q.PlayerQuest.ID == quest.ID && !q.IsCompleted);
                 if (questToComplete != null)
                 {
                     if (CurrentPlayer.HasAllTheseItems(quest.ItemsToComplete))

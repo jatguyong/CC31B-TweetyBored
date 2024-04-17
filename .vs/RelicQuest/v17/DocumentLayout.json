@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\NITRO 5\\source\\Repos\\CC31B-TweetyBored\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CA81ACC0-2891-4ADA-9B2C-BF9EB6029968}|Engine\\Engine.csproj|c:\\users\\nitro 5\\source\\repos\\cc31b-tweetybored\\engine\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA81ACC0-2891-4ADA-9B2C-BF9EB6029968}|Engine\\Engine.csproj|solutionrelative:engine\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CA81ACC0-2891-4ADA-9B2C-BF9EB6029968}|Engine\\Engine.csproj|c:\\users\\nitro 5\\source\\repos\\cc31b-tweetybored\\engine\\viewmodels\\gamesessions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CA81ACC0-2891-4ADA-9B2C-BF9EB6029968}|Engine\\Engine.csproj|solutionrelative:engine\\viewmodels\\gamesessions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -33,10 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{CA81ACC0-2891-4ADA-9B2C-BF9EB6029968}|Engine\\Engine.csproj|c:\\users\\nitro 5\\source\\repos\\cc31b-tweetybored\\engine\\factories\\itemfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CA81ACC0-2891-4ADA-9B2C-BF9EB6029968}|Engine\\Engine.csproj|solutionrelative:engine\\factories\\itemfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CA81ACC0-2891-4ADA-9B2C-BF9EB6029968}|Engine\\Engine.csproj|c:\\users\\nitro 5\\source\\repos\\cc31b-tweetybored\\engine\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CA81ACC0-2891-4ADA-9B2C-BF9EB6029968}|Engine\\Engine.csproj|solutionrelative:engine\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CA81ACC0-2891-4ADA-9B2C-BF9EB6029968}|Engine\\Engine.csproj|c:\\users\\nitro 5\\source\\repos\\cc31b-tweetybored\\engine\\models\\items\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -74,7 +74,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -86,28 +86,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\NITRO 5\\source\\Repos\\CC31B-TweetyBored\\RelicQuest\\MainWindow.xaml",
               "RelativeDocumentMoniker": "RelicQuest\\MainWindow.xaml",
               "ToolTip": "C:\\Users\\NITRO 5\\source\\Repos\\CC31B-TweetyBored\\RelicQuest\\MainWindow.xaml",
               "RelativeToolTip": "RelicQuest\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-11T15:51:22.605Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-11T15:51:22.605Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Monster.cs",
               "DocumentMoniker": "C:\\Users\\NITRO 5\\source\\Repos\\CC31B-TweetyBored\\Engine\\Models\\Monster.cs",
               "RelativeDocumentMoniker": "Engine\\Models\\Monster.cs",
-              "ToolTip": "C:\\Users\\NITRO 5\\source\\Repos\\CC31B-TweetyBored\\Engine\\Models\\Monster.cs*",
-              "RelativeToolTip": "Engine\\Models\\Monster.cs*",
+              "ToolTip": "C:\\Users\\NITRO 5\\source\\Repos\\CC31B-TweetyBored\\Engine\\Models\\Monster.cs",
+              "RelativeToolTip": "Engine\\Models\\Monster.cs",
               "ViewState": "AQIAABMAAAAAAAAAAAAkwCcAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T06:45:07.529Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-17T06:45:07.529Z"
             },
             {
               "$type": "Document",
@@ -123,7 +121,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "WorldFactory.cs",
               "DocumentMoniker": "C:\\Users\\NITRO 5\\source\\Repos\\CC31B-TweetyBored\\Engine\\Factories\\WorldFactory.cs",
               "RelativeDocumentMoniker": "Engine\\Factories\\WorldFactory.cs",
@@ -131,12 +129,11 @@
               "RelativeToolTip": "Engine\\Factories\\WorldFactory.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAFYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T06:50:48.898Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-17T06:50:48.898Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Location.cs",
               "DocumentMoniker": "C:\\Users\\NITRO 5\\source\\Repos\\CC31B-TweetyBored\\Engine\\Models\\Location.cs",
               "RelativeDocumentMoniker": "Engine\\Models\\Location.cs",
@@ -144,8 +141,7 @@
               "RelativeToolTip": "Engine\\Models\\Location.cs",
               "ViewState": "AQIAAA8AAAAAAAAAAAA7wBMAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T08:08:38.992Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-17T08:08:38.992Z"
             },
             {
               "$type": "Document",
@@ -161,7 +157,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\NITRO 5\\source\\Repos\\CC31B-TweetyBored\\RelicQuest\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "RelicQuest\\MainWindow.xaml.cs",
@@ -169,25 +165,24 @@
               "RelativeToolTip": "RelicQuest\\MainWindow.xaml.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T09:03:52.581Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-17T09:03:52.581Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\Users\\NITRO 5\\source\\Repos\\CC31B-TweetyBored\\Engine\\Models\\Player.cs",
               "RelativeDocumentMoniker": "Engine\\Models\\Player.cs",
               "ToolTip": "C:\\Users\\NITRO 5\\source\\Repos\\CC31B-TweetyBored\\Engine\\Models\\Player.cs",
               "RelativeToolTip": "Engine\\Models\\Player.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAA/wHIAAAAJAAAA",
+              "ViewState": "AQIAACMAAAAAAAAAAAA6wCwAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-17T05:42:39.775Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "ItemFactory.cs",
               "DocumentMoniker": "C:\\Users\\NITRO 5\\source\\Repos\\CC31B-TweetyBored\\Engine\\Factories\\ItemFactory.cs",
               "RelativeDocumentMoniker": "Engine\\Factories\\ItemFactory.cs",
@@ -195,18 +190,17 @@
               "RelativeToolTip": "Engine\\Factories\\ItemFactory.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAABIAAACrAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-17T06:47:00.101Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-17T06:47:00.101Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "GameSessions.cs",
               "DocumentMoniker": "C:\\Users\\NITRO 5\\source\\Repos\\CC31B-TweetyBored\\Engine\\ViewModels\\GameSessions.cs",
               "RelativeDocumentMoniker": "Engine\\ViewModels\\GameSessions.cs",
               "ToolTip": "C:\\Users\\NITRO 5\\source\\Repos\\CC31B-TweetyBored\\Engine\\ViewModels\\GameSessions.cs",
               "RelativeToolTip": "Engine\\ViewModels\\GameSessions.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAADgvzsAAABqAAAA",
+              "ViewState": "AQIAAGoAAAAAAAAAAAAjwHQAAAB3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-11T15:47:46.244Z",
               "EditorCaption": ""
@@ -261,12 +255,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "World.cs",
               "DocumentMoniker": "C:\\Users\\NITRO 5\\source\\Repos\\CC31B-TweetyBored\\Engine\\Models\\World.cs",
               "RelativeDocumentMoniker": "Engine\\Models\\World.cs",
-              "ToolTip": "C:\\Users\\NITRO 5\\source\\Repos\\CC31B-TweetyBored\\Engine\\Models\\World.cs*",
-              "RelativeToolTip": "Engine\\Models\\World.cs*",
+              "ToolTip": "C:\\Users\\NITRO 5\\source\\Repos\\CC31B-TweetyBored\\Engine\\Models\\World.cs",
+              "RelativeToolTip": "Engine\\Models\\World.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-12T17:31:14.447Z",

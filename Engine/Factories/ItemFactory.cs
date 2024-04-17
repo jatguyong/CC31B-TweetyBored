@@ -30,16 +30,16 @@ namespace Engine.Factories
         public static GameItem CreateGameItem(int itemTypeID)
         {
             GameItem standardItem = _standardGameItems.FirstOrDefault(item => item.ItemTypeID == itemTypeID);
-            // uses LINQ to find the first item in _standardGameItems that has ItemTypeID value that matches the itemTypeID
-            // otherwise, if not found, the default value will be null
 
-            // create new instances of game items
 
-            if (_standardGameItems != null)
+            if (standardItem != null)
             {
+                if (standardItem is Weapon)
+                {
+                    return (standardItem as Weapon).Clone();
+                }
                 return standardItem.Clone();
             }
-
             return null;
         }
     }

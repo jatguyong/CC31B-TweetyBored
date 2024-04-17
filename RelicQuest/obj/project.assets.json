@@ -27,32 +27,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\princ\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\NITRO 5\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\NITRO 5\\Source\\Repos\\CC31B-TweetyBored\\RelicQuest\\RelicQuest.csproj",
       "projectName": "RelicQuest",
       "projectPath": "C:\\Users\\NITRO 5\\Source\\Repos\\CC31B-TweetyBored\\RelicQuest\\RelicQuest.csproj",
       "packagesPath": "C:\\Users\\NITRO 5\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\NITRO 5\\Source\\Repos\\CC31B-TweetyBored\\RelicQuest\\obj\\",
-=======
-      "projectUniqueName": "C:\\Users\\princ\\source\\repos\\CC31B-TweetyBored\\RelicQuest\\RelicQuest.csproj",
-      "projectName": "RelicQuest",
-      "projectPath": "C:\\Users\\princ\\source\\repos\\CC31B-TweetyBored\\RelicQuest\\RelicQuest.csproj",
-      "packagesPath": "C:\\Users\\princ\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\princ\\source\\repos\\CC31B-TweetyBored\\RelicQuest\\obj\\",
->>>>>>> d7a3fbee6f93b6a8d5cd0db55a85ee2b05ed05e8
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\princ\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\NITRO 5\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -66,13 +53,8 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-<<<<<<< HEAD
             "C:\\Users\\NITRO 5\\Source\\Repos\\CC31B-TweetyBored\\Engine\\Engine.csproj": {
               "projectPath": "C:\\Users\\NITRO 5\\Source\\Repos\\CC31B-TweetyBored\\Engine\\Engine.csproj"
-=======
-            "C:\\Users\\princ\\source\\repos\\CC31B-TweetyBored\\Engine\\Engine.csproj": {
-              "projectPath": "C:\\Users\\princ\\source\\repos\\CC31B-TweetyBored\\Engine\\Engine.csproj"
->>>>>>> d7a3fbee6f93b6a8d5cd0db55a85ee2b05ed05e8
             }
           }
         }
@@ -81,6 +63,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -105,8 +92,16 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\NITRO 5\\Source\\Repos\\CC31B-TweetyBored\\RelicQuest\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

@@ -1,14 +1,15 @@
 {
   "version": 2,
-<<<<<<< HEAD
   "dgSpecHash": "XtSR6WU9/ySyvAZ2S0rfA/yrYBuXYCeIzXy8R/2L7xZ1qyer6ROEXr85ikczSeMAb8PBflhBkxb/xte7zzsC7A==",
   "success": true,
   "projectFilePath": "C:\\Users\\NITRO 5\\Source\\Repos\\CC31B-TweetyBored\\Engine\\Engine.csproj",
-=======
-  "dgSpecHash": "yHRBVvn4UtxzJgDjNlEebjRPYmtPKwoT292DDZuah56Of/teMiI7a6f6hWaBavKFuqFgMdD2YlJIZ0ptmCI79w==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\princ\\source\\repos\\CC31B-TweetyBored\\Engine\\Engine.csproj",
->>>>>>> d7a3fbee6f93b6a8d5cd0db55a85ee2b05ed05e8
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\NITRO 5\\Source\\Repos\\CC31B-TweetyBored\\Engine\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

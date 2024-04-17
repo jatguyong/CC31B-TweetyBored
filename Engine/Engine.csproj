@@ -28,18 +28,12 @@
   </ItemGroup>
 
   <ItemGroup>
-<<<<<<< HEAD
     <Resource Include="Images\Enemies\ghoul.png" />
     <Resource Include="Images\Enemies\goblin.png" />
     <Resource Include="Images\Enemies\phantom.png" />
     <Resource Include="Images\Enemies\scorchflame.png" />
     <Resource Include="Images\Enemies\warlock.png" />
     <Resource Include="Images\Locations\coastal.jpeg" />
-=======
-    <Resource Include="Images\Locations\coastal.jpeg">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-    </Resource>
->>>>>>> d7a3fbee6f93b6a8d5cd0db55a85ee2b05ed05e8
     <Resource Include="Images\Locations\dungeon.jpeg" />
     <Resource Include="Images\Locations\grove.jpeg" />
     <Resource Include="Images\Locations\hacienda.jpeg" />

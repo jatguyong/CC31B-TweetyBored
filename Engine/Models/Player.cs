@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Engine.Models.Items;
+using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
@@ -21,11 +22,19 @@ namespace Engine.Models
 
         public ObservableCollection<GameItem> Inventory { get; set; }
         // this automatically handles all the notifications
+
+        public List<GameItem> Weapons =>
+           Inventory.Where(i => i is Weapon).ToList();
         public ObservableCollection<QuestStatus> Quests { get; set; }
         public Player()
         {
             Inventory = new ObservableCollection<GameItem>();
             Quests = new ObservableCollection<QuestStatus>();
+        }
+        public void AddItemToInventory(GameItem item)
+        {
+            Inventory.Add(item);
+            OnPropertyChanged(nameof(Weapons));
         }
 
         // properties

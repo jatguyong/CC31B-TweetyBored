@@ -23,11 +23,13 @@ namespace Engine.Factories
                 "GROVE",
                 "A place of serenity and otherworldly paradise, where the boundaries between life and death are blurred",
                 "pack://application:,,,/Engine;component/Images/Locations/grove.jpeg");
+            newWorld.LocationAt(0, 1).QuestsAvailableHere.Add(QuestFactory.GetQuestByID(4));
 
             newWorld.CreateLocation(0, 2,
                 "HACIENDA",
                 "A grand estate of elegance and grandeur, where one will discover the true meaning of luxury",
                 "pack://application:,,,/Engine;component/Images/Locations/hacienda.jpeg");
+            newWorld.LocationAt(0, 2).QuestsAvailableHere.Add(QuestFactory.GetQuestByID(3));
 
             newWorld.CreateLocation(0, 3,
                 "SANCTUARY",
@@ -38,11 +40,13 @@ namespace Engine.Factories
                 "OASIS",
                 "A place where only the bravest will make the ascent and be rewarded with the ultimate test of their will and spirit ",
                 "pack://application:,,,/Engine;component/Images/Locations/summit.jpeg");
+            newWorld.LocationAt(0, 4).QuestsAvailableHere.Add(QuestFactory.GetQuestByID(1));
 
             newWorld.CreateLocation(1, 5,
                 "SUMMIT",
                 "A hidden place where dark arts remain from those who seek the wisdom of the ancients",
                 "pack://application:,,,/Engine;component/Images/Locations/oasis.jpeg");
+            newWorld.LocationAt(1, 5).QuestsAvailableHere.Add(QuestFactory.GetQuestByID(6));
 
             newWorld.CreateLocation(-1, 2,
                 "COASTAL",
@@ -52,7 +56,12 @@ namespace Engine.Factories
             newWorld.CreateLocation(-2, 2,
                 "ABANDONED DUNGEON",
                 "A place of untold horrors and unspeakable terrors, where only the bravest dare to venture",
+<<<<<<< HEAD
                 "pack://application:,,,/Engine;component/Images/Locations/dungeon.jpeg");
+=======
+                "pack://application:,,,/Engine;component/Images/Locations/abandoned_dungeon.jpeg");
+            newWorld.LocationAt(-2, 2).QuestsAvailableHere.Add(QuestFactory.GetQuestByID(5));
+>>>>>>> ac5002858420a2ecc164310996d4124a8208a816
 
             newWorld.CreateLocation(1, 2,
                 "PLATEAU",
@@ -63,6 +72,7 @@ namespace Engine.Factories
                 "WASTELAND",
                 "A barren and desolate land, where the only sign of life is the wandering of the fiercest who conquers its brutal terrain\r\n",
                 "pack://application:,,,/Engine;component/Images/Locations/wasteland.jpeg");
+            newWorld.LocationAt(2, 2).QuestsAvailableHere.Add(QuestFactory.GetQuestByID(2));
 
             newWorld.CreateLocation(1, 3,
                 "HARBOR",

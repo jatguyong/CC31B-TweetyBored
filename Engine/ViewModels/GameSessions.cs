@@ -44,11 +44,10 @@ namespace Engine.ViewModels
                 _currentLocation = value;
                 OnPropertyChanged(nameof(CurrentLocation));
                 // refresh the value for these ff boolean properties every time location changes:
-<<<<<<< HEAD
+
                 OnPropertyChanged(nameof(HasLocationToNorth)); 
-=======
+
                 OnPropertyChanged(nameof(HasLocationToNorth));
->>>>>>> 9aac87582e7f4364b0f0d78af36b2847408e8f24
                 OnPropertyChanged(nameof(HasLocationToEast));
                 OnPropertyChanged(nameof(HasLocationToWest));
                 OnPropertyChanged(nameof(HasLocationToSouth));

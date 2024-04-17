@@ -59,3 +59,7 @@ C:\Users\princ\source\repos\CC31B-TweetyBored\Engine\obj\Debug\net8.0\Engine.sou
 C:\Users\princ\source\repos\CC31B-TweetyBored\Engine\obj\Debug\net8.0\Engine.dll
 C:\Users\princ\source\repos\CC31B-TweetyBored\Engine\obj\Debug\net8.0\refint\Engine.dll
 C:\Users\princ\source\repos\CC31B-TweetyBored\Engine\obj\Debug\net8.0\Engine.pdb
+C:\Users\princ\source\repos\CC31B-TweetyBored\Engine\bin\Debug\net8.0\Engine.deps.json
+C:\Users\princ\source\repos\CC31B-TweetyBored\Engine\bin\Debug\net8.0\Engine.dll
+C:\Users\princ\source\repos\CC31B-TweetyBored\Engine\bin\Debug\net8.0\Engine.pdb
+C:\Users\princ\source\repos\CC31B-TweetyBored\Engine\obj\Debug\net8.0\ref\Engine.dll

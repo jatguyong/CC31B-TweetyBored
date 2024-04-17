@@ -18,6 +18,8 @@
     <None Remove="Images\Locations\summit.jpeg" />
     <None Remove="Images\Locations\wasteland.jpeg" />
     <None Remove="Images\Locations\woods.jpeg" />
+    <None Remove="Images\Weapons\inferno_blade.png" />
+    <None Remove="Images\Weapons\shadowstrike_scythe.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -32,6 +34,8 @@
     <Resource Include="Images\Locations\summit.jpeg" />
     <Resource Include="Images\Locations\wasteland.jpeg" />
     <Resource Include="Images\Locations\woods.jpeg" />
+    <Resource Include="Images\Weapons\inferno_blade.png" />
+    <Resource Include="Images\Weapons\shadowstrike_scythe.png" />
   </ItemGroup>
 
 </Project>

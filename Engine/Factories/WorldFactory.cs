@@ -47,12 +47,12 @@ namespace Engine.Factories
             newWorld.CreateLocation(-1, 2,
                 "COASTAL",
                 "A bustling coastal area where tourists, residents, and fishermen gather to trade goods and share stories",
-                "C:\\Users\\princ\\source\\repos\\CC31B-TweetyBored\\Engine\\Images\\Locations\\coastal.jpeg");
+                "pack://application:,,,/Engine;component/Images/Locations/coastal.jpeg");
 
             newWorld.CreateLocation(-2, 2,
                 "ABANDONED DUNGEON",
                 "A place of untold horrors and unspeakable terrors, where only the bravest dare to venture",
-                "pack://application:,,,/Engine;component/Images/Locations/abandoned_dungeon.jpeg");
+                "pack://application:,,,/Engine;component/Images/Locations/dungeon.jpeg");
 
             newWorld.CreateLocation(1, 2,
                 "PLATEAU",

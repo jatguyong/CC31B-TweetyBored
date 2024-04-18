@@ -241,6 +241,15 @@ namespace Engine.ViewModels
         {
             OnMessageRaised?.Invoke(this, new GameMessageEventArgs(message));
         }
-
+        private bool _isComboBoxEnabled = true;
+        public bool IsComboBoxEnabled
+        {
+            get { return _isComboBoxEnabled; }
+            set
+            {
+                _isComboBoxEnabled = value;
+                OnPropertyChanged(nameof(IsComboBoxEnabled));
+            }
+        }
     }
 }

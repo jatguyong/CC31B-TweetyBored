@@ -26,7 +26,34 @@
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="250"/>
         </Grid.ColumnDefinitions>
+        <!-- Gameplay -->
+        <Grid Grid.Row="1" Grid.Column="1" Background="#19ff0000">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="3*"/>
+                <ColumnDefinition Width="2*"/>
+            </Grid.ColumnDefinitions>
+        </Grid>
 
+        <!-- Game Messages -->
+        <Border Grid.Row="1" Grid.Column="1" Background="#19ff0000"
+        Grid.RowSpan="2"
+        BorderBrush="Gainsboro"
+        BorderThickness="1">
+            <RichTextBox x:Name="GameMessages"
+                 Background="#00FFFFFF" Foreground="White"
+                 VerticalScrollBarVisibility="Auto" Margin="0,0,0,168">
+                <RichTextBox.Resources>
+                    <Style TargetType="{x:Type Paragraph}">
+                        <Setter Property="Margin" Value="0"/>
+                    </Style>
+                </RichTextBox.Resources>
+            </RichTextBox>
+        </Border>
+    
         <!-- Action controls -->
         <Grid Grid.Row="2" Grid.Column="1">
             <Grid.RowDefinitions>
@@ -167,22 +194,6 @@
                 </TabItem>
             </TabControl>
         </Grid>
-
-        <!-- Game Messages -->
-        <Border Grid.Row="1" Grid.Column="1"
-            Grid.RowSpan="2"
-            BorderBrush="Gainsboro"
-            BorderThickness="1">
-            <RichTextBox x:Name="GameMessages"
-                     Background="#00FFFFFF" Foreground="White"
-                     VerticalScrollBarVisibility="Auto" HorizontalAlignment="Right">
-                <RichTextBox.Resources>
-                    <Style TargetType="{x:Type Paragraph}">
-                        <Setter Property="Margin" Value="0"/>
-                    </Style>
-                </RichTextBox.Resources>
-            </RichTextBox>
-        </Border>
 
         <!--Item and Action Buttons-->
         <Grid Grid.Row="2" Grid.Column="1">

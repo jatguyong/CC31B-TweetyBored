@@ -15,12 +15,12 @@ namespace Engine.Factories
             {
                 case 1:
                     Monster warlock =
-                        new Monster("Warlock", "pack://application:,,,/Engine;component/Images/Enemies/warlock.png", 4, 4, 1, 2, 5, 1);
+                        new Monster("Warlock", "pack://application:,,,/Engine;component/Images/Enemies/warlock.png", 20, 80, 1, 2, 5, 1);
                     AddLootItem(warlock, 2004, 25);
                     return warlock;
                 case 2:
                     Monster goblin =
-                        new Monster("Goblin", "pack://application:,,,/Engine;component/Images/Enemies/goblin.png", 5, 5, 1, 2, 5, 1);
+                        new Monster("Goblin", "pack://application:,,,/Engine;component/Images/Enemies/goblin.png", 20, 60, 1, 2, 5, 1);
                     AddLootItem(goblin, 2002, 25);
                     return goblin;
                 case 3:
@@ -30,12 +30,12 @@ namespace Engine.Factories
                     return phantom;
                 case 4:
                     Monster ghoul =
-                        new Monster("Ghoul", "pack://application:,,,/Engine;component/Images/Enemies/ghoul.png", 10, 10, 3, 2, 10, 3);
+                        new Monster("Ghoul", "pack://application:,,,/Engine;component/Images/Enemies/ghoul.png", 20, 50, 3, 2, 10, 3);
                     AddLootItem(ghoul, 2003, 25);
                     return ghoul;
                 case 5:
                     Monster scorchflame =
-                        new Monster("Scorchflame", "pack://application:,,,/Engine;component/Images/Enemies/scorchflame.png", 10, 10, 3, 2, 10, 3);
+                        new Monster("Scorchflame", "pack://application:,,,/Engine;component/Images/Enemies/scorchflame.png", 50, 70, 3, 2, 10, 3);
                     AddLootItem(scorchflame, 2005, 25);
                     return scorchflame;
                 default:
